@@ -11,6 +11,14 @@
             "id": "8d3210a434654842",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "23a2c22bbb647b67",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "연습용.md",
@@ -19,7 +27,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +155,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8d3210a434654842",
+  "active": "23a2c22bbb647b67",
   "lastOpenFiles": [
+    "연습용.md",
     "연습용.md"
   ]
 }
