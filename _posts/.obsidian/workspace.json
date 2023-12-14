@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "연습용.md",
+                "file": "2018-03-04-TimeComplexity1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "연습용.md",
+                "file": "2018-03-04-TimeComplexity1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "연습용.md",
+                "file": "2018-03-04-TimeComplexity1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "연습용.md"
+                "file": "2018-03-04-TimeComplexity1.md"
               }
             }
           }
@@ -157,7 +157,7 @@
   },
   "active": "23a2c22bbb647b67",
   "lastOpenFiles": [
-    "연습용.md",
-    "연습용.md"
+    "2018-03-04-TimeComplexity1.md",
+    "2018-03-04-TimeComplexity1.md"
   ]
 }
