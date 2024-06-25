@@ -25,10 +25,4 @@ categories:
     url: /categories/problem-solving/
 
   - title: "Machine Learning"
-    children:
-      - title: "Basic"
-        url: /categories/machine-learning-basic/
-      - title: "Kaggle"
-        url: /categories/machine-learning-kaggle/
-      - title: "Paper"
-        url: /categories/machine-learning-paper/
+    url: /categories/machine-learning/
