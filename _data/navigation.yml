@@ -20,8 +20,10 @@ main:
 categories:
   - title: "Algorithm"
     url: /categories/algorithm/
+
   - title: "Problem Solving"
     url: /categories/problem-solving/
+
   - title: "Machine Learning"
     children:
       - title: "Basic"
