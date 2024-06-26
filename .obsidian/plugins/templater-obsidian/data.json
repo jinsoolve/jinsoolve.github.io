@@ -22,9 +22,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "templates/template_default.md",
-    "templates/template_ver1.md",
-    "templates/template_ver2.md"
+    ""
   ],
   "startup_templates": [
     "templates/template_default.md"
