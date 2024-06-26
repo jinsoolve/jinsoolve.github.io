@@ -11,8 +11,12 @@
             "id": "d9631079ef79bfa7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-26-이분-매칭.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-06-26-이분-매칭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-06-26-이분-매칭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-06-26-이분-매칭.md"
+              }
             }
           }
         ]
@@ -141,6 +149,8 @@
   },
   "active": "d9631079ef79bfa7",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.md",
     "templates/template_default.md",
     "templates/무제 파일.md",
     "templates/template_ver1.md",
@@ -148,7 +158,6 @@
     "_posts/무제 파일 3.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "templates/template_ver2.md",
-    "Untitled.md",
     "_posts/무제 파일 2.md",
     "_posts/무제 파일 1.md",
     "_posts/무제 파일.md",
@@ -177,7 +186,6 @@
     "무제 파일.md",
     "_pages/categories/category-algorithm.md",
     "무제 폴더",
-    "templates",
-    "README.md"
+    "templates"
   ]
 }
