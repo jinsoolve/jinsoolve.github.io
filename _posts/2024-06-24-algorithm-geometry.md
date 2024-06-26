@@ -5,7 +5,7 @@ excerpt: "기하학"
 categories:
   - Algorithm
 tags:
-  - []
+  - [기하학]
 
 permalink: /algorithm/geometry/
 
