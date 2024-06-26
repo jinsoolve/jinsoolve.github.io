@@ -1,11 +1,10 @@
-<%*
-const today = tp.date.now("YYYY-MM-DD");
-const title = await tp.system.prompt("Enter the post title");
-const fileName = `${today}-${title.replace(/\s+/g, '-').toLowerCase()}.md`;
+---
+creation date: <% tp.file.creation_date() %>
+modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+---
 
-// 새로운 파일 생성 및 템플릿 적용
-await tp.file.create_new(tp.file.find_tfile(tp.file.path(true)), fileName, true);
+<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-// 새로운 파일에 템플릿 내용 추가
-await tp.file.insert_template("Templates/jekyll_post_template");
-%>
+# <% tp.file.title %>
+
+<% tp.web.daily_quote() %>
