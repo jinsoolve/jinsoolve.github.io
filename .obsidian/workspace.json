@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/2024-06-26-이분-매칭.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/2024-06-26-이분-매칭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/2024-06-26-이분-매칭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/template_ver1.md"
+                "file": "_posts/2024-06-26-이분-매칭.md"
               }
             }
           }
@@ -149,13 +149,21 @@
   },
   "active": "d9631079ef79bfa7",
   "lastOpenFiles": [
+    "templates/template_default.md",
+    "_posts/2024-06-26-이분-매칭.md",
+    "_posts/무제 파일 3.md",
+    "_posts/2024-06-26-algorithm-geometry.md",
+    "templates/template_ver1.md",
+    "templates/template_ver2.md",
+    "Untitled.md",
+    "_posts/무제 파일 2.md",
     "_posts/무제 파일 1.md",
     "_posts/무제 파일.md",
-    "templates/template_ver1.md",
-    "templates/template_default.md",
+    "_posts/무제 파일 6.md",
+    "_posts/무제 파일 5.md",
+    "screenshot-layouts.png",
     "screenshot.png",
     "templates/template_script.md",
-    "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "이미지/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-09-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.20.48.png",
     "이미지/Untitled 1 3.png",
@@ -165,7 +173,6 @@
     "이미지/_2020-05-26__6.52.46.png",
     "이미지/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-09-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.25.43.png",
     "이미지/Pasted image 20240522132733.png",
-    "이미지/Pasted image 20240616215133.png",
     "이미지/_2_Segment_tree.pdf",
     "이미지/_1_Exponential_by_Squaring.pdf",
     "이미지/19-1__9_-_Union-Find.pdf",
@@ -177,7 +184,6 @@
     "무제 파일.md",
     "_pages/categories/category-algorithm.md",
     "무제 폴더",
-    "Untitled.md",
     "templates",
     "README.md"
   ]
