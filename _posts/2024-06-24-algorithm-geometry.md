@@ -3,11 +3,11 @@ title: "기하학"
 excerpt: "기하학"
 
 categories:
-  - algorithm
+  - Algorithm
 tags:
   - [geometry]
 
-permalink: /categories/algorithm/geometry/
+permalink: /algorithm/geometry/
 
 toc: true
 toc_sticky: true
