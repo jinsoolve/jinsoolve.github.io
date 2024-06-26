@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/template_ver1.md",
+                "file": "_posts/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/template_ver1.md"
+                "file": "_posts/무제 파일.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "d9631079ef79bfa7",
   "lastOpenFiles": [
-    "templates/template_default.md",
-    "screenshot.png",
     "templates/template_ver1.md",
     "_posts/무제 파일.md",
+    "templates/template_default.md",
+    "screenshot.png",
     "templates/template_script.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-06-24-강한-연결-요소.md",
