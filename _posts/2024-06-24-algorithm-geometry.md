@@ -7,7 +7,7 @@ categories:
 tags:
   - [geometry]
 
-permalink: /algorithm/geometry/
+permalink: /categories/algorithm/geometry/
 
 toc: true
 toc_sticky: true
