@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "templates/template_default.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "templates/template_default.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "templates/template_default.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md"
+                "file": "templates/template_default.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "d9631079ef79bfa7",
   "lastOpenFiles": [
+    "templates/template_ver1.md",
     "templates/template_default.md",
     "_posts/2024-06-26-이분-매칭.md",
     "_posts/무제 파일 3.md",
     "_posts/2024-06-26-algorithm-geometry.md",
-    "templates/template_ver1.md",
     "templates/template_ver2.md",
     "Untitled.md",
     "_posts/무제 파일 2.md",
