@@ -12,6 +12,8 @@
 9. date: 처음 포스팅한 날짜 YYYY-MM-DD 형식
 10. last_modified_at: 가장 최근에 수정한 날짜. 마찬가지로 YYYY-MM-DD 형식
 
+## 이미지 첨부
+포스팅에서 이미지를 첨부할 때, 기본적으로 아무 위치에나 넣어도 되지만 경로의 맨 앞에는 '/'가 있어야 한다.
 # Category
 카테고리를 추가하려면 다음과 같다.
 1. _ pages/categories/ 하위에 category-(카테고리이름).md 를 추가한다.
