@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./assets/images/posts_img",
   "newLinkFormat": "absolute",

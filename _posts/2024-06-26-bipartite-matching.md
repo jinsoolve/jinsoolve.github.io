@@ -14,7 +14,7 @@ last_modified_at: 2024-06-26
 # 이분매칭이란?
 ![](/assets/images/posts_img/Pasted%20image%2020240703143547.png)
 위 그림과 같이 인접한 정점끼리 서로 다른 색으로 색칠하는데 모든 정점을 2가지 색으로만 표현할 수 있으면 이를 `이분 그래프`라고 한다.
-
+![[assets/images/posts_img/Pasted image 20240703143511.png]]
 이분매칭은 이러한 이분 그래프에서 각 정점이 최대 1개의 간선만 갖을 수 있으면서 그러한 간선(매칭)을 최대로 하는 기법이다.
 
 ![](assets/images/posts_img/Pasted%20image%2020240703143511.png)
