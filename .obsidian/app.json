@@ -4,5 +4,7 @@
   "useMarkdownLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "assets/images/posts_img",
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "focusNewTab": true,
+  "spellcheck": false
 }
