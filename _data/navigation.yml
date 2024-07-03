@@ -18,6 +18,9 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
+  - title: "Diary"
+    url: /categories/diary/
+
   - title: "Algorithm"
     url: /categories/algorithm/
 
