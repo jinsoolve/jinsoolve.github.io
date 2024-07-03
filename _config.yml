@@ -282,7 +282,3 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
-
-
-# Favicon
-favicon: "/assets/images/favicon/apple-touch-icon.png"
