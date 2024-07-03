@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "d47ca7b7ed851fda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1e8b9925af5dd839",
             "type": "leaf",
             "state": {
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,15 +174,15 @@
   },
   "active": "1e8b9925af5dd839",
   "lastOpenFiles": [
-    "_posts/2024-06-24-강한-연결-요소.md",
-    "_posts/2024-06-26-bipartite-matching.md",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143547.png",
-    "_posts/2024-06-26-algorithm-geometry.md",
     "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143731.png",
-    "assets/images/posts_img/Pasted image 20240703143128.png",
     "_pages/categories/category-diary.md",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143511.png",
+    "assets/images/posts_img/Pasted image 20240703143511.png",
+    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143731.png",
+    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143547.png",
+    "_posts/2024-06-26-bipartite-matching.md",
+    "_posts/2024-06-24-강한-연결-요소.md",
+    "_posts/2024-06-26-algorithm-geometry.md",
+    "assets/images/posts_img/Pasted image 20240703143128.png",
     "assets/images/posts_img/이분 매칭/Pasted image 20240703143441.png",
     "assets/images/posts_img/bipartite-matching",
     "assets/images/posts_img/_.png",
