@@ -20,31 +20,17 @@
             }
           },
           {
-            "id": "de13674863f133f0",
+            "id": "b4aa4afc5cfb4f6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_pages/categories/category-diary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e8b9925af5dd839",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md"
+                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png"
               }
             }
           }
@@ -172,37 +158,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e8b9925af5dd839",
+  "active": "b4aa4afc5cfb4f6e",
   "lastOpenFiles": [
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
-    "_pages/categories/category-diary.md",
-    "assets/images/posts_img/Pasted image 20240703143511.png",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143731.png",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143547.png",
     "_posts/2024-06-26-bipartite-matching.md",
+    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
+    "assets/images/posts_img/Pasted image 20240703143511.png",
+    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143547.png",
+    "assets/images/posts_img/Pasted image 20240703152308.png",
+    "_posts/Pasted image 20240703154911.png",
+    "Pasted image 20240703154850.png",
+    "Pasted image 20240703153657.png",
+    "assets/images/posts_img/Pasted image 20240703153144.png",
+    "Pasted image 20240703153127.png",
+    "Pasted image 20240703153106.png",
+    "_posts/2024-07-03-example.md",
+    "_pages/categories/category-diary.md",
+    "_posts/assets/images/posts_img",
+    "_posts/assets/images",
+    "_posts/assets",
+    "templates/template_default.md",
+    "scripts",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
-    "assets/images/posts_img/Pasted image 20240703143128.png",
-    "assets/images/posts_img/이분 매칭/Pasted image 20240703143441.png",
     "assets/images/posts_img/bipartite-matching",
-    "assets/images/posts_img/_.png",
     "_pages/categories/category-algorithm.md",
     "나만의 readme.md",
-    "_posts/2024-07-03-example.md",
-    "assets/images/posts_img/readme/blog-main-ver1.png",
-    "assets/images/posts_img/readme/blog-main-ver2.png",
-    "assets/images/posts_img/readme/ver2_1_main.png",
     "_pages/category-diary.md",
-    "templates/template_default.md",
     "_site/algorithm/scc/index.html",
     "_site/algorithm/geometry/index.html",
     "_site/algorithm/bipartite/index.html",
     "_site/algorithm/scc",
     "_site/algorithm/geometry",
-    "_site/algorithm/bipartite",
-    "_site/algorithm",
-    "_site/이미지/중급_6_DP_with_DataStructures.pdf",
-    "_site/이미지/19-1__9_-_Union-Find.pdf",
     "README.md",
     "Untitled.md",
     "templates/무제 파일.md",
