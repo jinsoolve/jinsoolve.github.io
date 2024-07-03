@@ -282,3 +282,7 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
+
+
+# Favicon
+favicon: "/assets/images/favicon/favicon.ico"
