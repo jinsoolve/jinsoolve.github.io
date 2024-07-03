@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 585.5039024353027
+    "width": 258.50390243530273
   },
   "right": {
     "id": "8c6d07e825cc2cc7",
@@ -172,55 +172,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "floating": {
-    "id": "919e89716d313ad3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "b8ad831b8d553f94",
-        "type": "window",
-        "children": [
-          {
-            "id": "0b136362545670ce",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0388a6a5e8b6c276",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_posts/2024-06-26-algorithm-geometry.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1152,
-        "y": -293,
-        "width": 576,
-        "height": 2023,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
   "active": "d47ca7b7ed851fda",
   "lastOpenFiles": [
+    "_posts/2024-06-26-algorithm-geometry.md",
+    "_posts/2024-06-26-이분-매칭.md",
     "assets/images/posts_img/Pasted image 20240703143857.png",
     "assets/images/posts_img/Pasted image 20240703143731.png",
     "assets/images/posts_img/Pasted image 20240703143128.png",
-    "_posts/2024-06-26-이분-매칭.md",
     "_pages/categories/category-diary.md",
     "assets/images/posts_img/Pasted image 20240703143547.png",
-    "assets/images/posts_img/이분 매칭/Pasted image 20240703143511.png",
+    "assets/images/posts_img/2024-06-26-이분-매칭/Pasted image 20240703143511.png",
     "assets/images/posts_img/이분 매칭/Pasted image 20240703143441.png",
-    "_posts/2024-06-26-algorithm-geometry.md",
-    "assets/images/posts_img/이분 매칭",
+    "assets/images/posts_img/2024-06-26-이분-매칭",
     "assets/images/posts_img/_.png",
     "_pages/categories/category-algorithm.md",
     "나만의 readme.md",
@@ -230,7 +193,6 @@
     "assets/images/posts_img/readme/ver2_1_main.png",
     "_pages/category-diary.md",
     "_posts/2024-06-24-강한-연결-요소.md",
-    "Pasted image 20240703134830.png",
     "templates/template_default.md",
     "_site/algorithm/scc/index.html",
     "_site/algorithm/geometry/index.html",
