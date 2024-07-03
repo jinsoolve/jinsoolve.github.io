@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-03-example.md",
+                "file": "_pages/categories/category-diary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "181ca84c003690fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "나만의 readme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-03-example.md",
+                "file": "나만의 readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-03-example.md",
+                "file": "나만의 readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-03-example.md"
+                "file": "나만의 readme.md"
               }
             }
           }
@@ -197,17 +209,17 @@
       }
     ]
   },
-  "active": "de13674863f133f0",
+  "active": "181ca84c003690fe",
   "lastOpenFiles": [
-    "나만의 readme.md",
     "_posts/2024-06-26-algorithm-geometry.md",
+    "나만의 readme.md",
+    "_pages/categories/category-diary.md",
     "_posts/2024-07-03-example.md",
     "_posts/2024-06-26-이분-매칭.md",
     "assets/images/posts_img/_.png",
     "assets/images/posts_img/readme/blog-main-ver1.png",
     "assets/images/posts_img/readme/blog-main-ver2.png",
     "assets/images/posts_img/readme/ver2_1_main.png",
-    "_pages/categories/category-diary.md",
     "_pages/category-diary.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "Pasted image 20240703134830.png",
