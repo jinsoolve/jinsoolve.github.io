@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "_posts/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "_posts/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md",
+                "file": "_posts/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-26-이분-매칭.md"
+                "file": "_posts/test.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "d9631079ef79bfa7",
   "lastOpenFiles": [
-    "_posts/2024-06-26-algorithm-geometry.md",
+    "templates/template_default.md",
+    "_posts/test.md",
     "_posts/2024-06-26-이분-매칭.md",
+    "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_site/algorithm/scc/index.html",
     "_site/algorithm/geometry/index.html",
@@ -172,7 +174,6 @@
     "_site/이미지/Untitled_Diagram.png",
     "_site/이미지/19-1__9_-_Union-Find.pdf",
     "_site/이미지",
-    "templates/template_default.md",
     "README.md",
     "Untitled.md",
     "templates/무제 파일.md",
@@ -181,7 +182,6 @@
     "templates/template_ver2.md",
     "_posts/무제 파일 2.md",
     "_posts/무제 파일 1.md",
-    "_posts/무제 파일.md",
     "_posts/무제 파일 6.md",
     "_posts/무제 파일 5.md",
     "templates/template_script.md",
