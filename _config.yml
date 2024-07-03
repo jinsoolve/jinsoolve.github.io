@@ -285,4 +285,4 @@ defaults:
 
 
 # Favicon
-favicon: "/assets/images/favicon/favicon.ico"
+favicon: "assets/images/favicon/apple-touch-icon.png"
