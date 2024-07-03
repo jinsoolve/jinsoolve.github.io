@@ -3,7 +3,19 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 {% if site.favicon %}
-    <link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
+<link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png">
+<style>
+    /* 둥글게 처리할 CSS */
+    .rounded-favicon {
+        border-radius: 50%;
+    }
+    /* 이미지에 적용할 스타일 */
+    .favicon {
+        width: 32px; /* 이미지 너비 설정 */
+        height: 32px; /* 이미지 높이 설정 */
+        /* 필요한 추가적인 스타일 설정 */
+    }
+</style>
 {% endif %}
 
 <!-- end custom head snippets -->
