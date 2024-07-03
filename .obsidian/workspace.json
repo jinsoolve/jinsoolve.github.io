@@ -23,9 +23,11 @@
             "id": "b4aa4afc5cfb4f6e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png"
+                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
+                "file": "_posts/2024-06-26-bipartite-matching.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
+                "file": "_posts/2024-06-26-bipartite-matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png"
+                "file": "_posts/2024-06-26-bipartite-matching.md"
               }
             }
           }
@@ -160,17 +162,19 @@
   },
   "active": "b4aa4afc5cfb4f6e",
   "lastOpenFiles": [
+    "assets/images/posts_img/Pasted image 20240703143857.png",
     "_posts/2024-06-26-bipartite-matching.md",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143857.png",
+    "나만의 readme.md",
+    "README.md",
+    "screenshot-layouts.png",
+    "screenshot.png",
+    "Pasted image 20240703154850.png",
     "assets/images/posts_img/Pasted image 20240703143511.png",
-    "assets/images/posts_img/bipartite-matching/Pasted image 20240703143547.png",
+    "assets/images/posts_img/Pasted image 20240703143547.png",
     "assets/images/posts_img/Pasted image 20240703152308.png",
     "_posts/Pasted image 20240703154911.png",
-    "Pasted image 20240703154850.png",
     "Pasted image 20240703153657.png",
     "assets/images/posts_img/Pasted image 20240703153144.png",
-    "Pasted image 20240703153127.png",
-    "Pasted image 20240703153106.png",
     "_posts/2024-07-03-example.md",
     "_pages/categories/category-diary.md",
     "_posts/assets/images/posts_img",
@@ -182,14 +186,12 @@
     "_posts/2024-06-26-algorithm-geometry.md",
     "assets/images/posts_img/bipartite-matching",
     "_pages/categories/category-algorithm.md",
-    "나만의 readme.md",
     "_pages/category-diary.md",
     "_site/algorithm/scc/index.html",
     "_site/algorithm/geometry/index.html",
     "_site/algorithm/bipartite/index.html",
     "_site/algorithm/scc",
     "_site/algorithm/geometry",
-    "README.md",
     "Untitled.md",
     "templates/무제 파일.md",
     "templates/template_ver1.md",
