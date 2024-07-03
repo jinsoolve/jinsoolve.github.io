@@ -1,7 +1,5 @@
 source "https://rubygems.org"
-gemspec
 
-gem 'jekyll-admin', group: :jekyll_plugins
-gem 'jekyll-sitemap'
-gem 'rack'
-gem "webrick", "~> 1.8"
+gem "jekyll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm"
