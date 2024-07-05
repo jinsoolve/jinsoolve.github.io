@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tp.date",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,6 +162,9 @@
   },
   "active": "d14793b4b49616dc",
   "lastOpenFiles": [
+    "templates/template_default.md",
+    "_site/Diary/2024년-여름-방학-계획.html",
+    "_site/Diary",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "나만의 readme.md",
     "_posts/2024-06-24-강한-연결-요소.md",
@@ -175,7 +178,6 @@
     "Pasted image 20240703183307.png",
     "_posts/2024-07-03-example.md",
     "_posts/2024-06-26-bipartite-matching.md",
-    "templates/template_default.md",
     "_posts/2024-07-05.md",
     "_posts/무제 파일 2.md",
     "_posts/prefix-2024-07-05.md",
@@ -189,8 +191,6 @@
     "_posts/2024-06-26-bipartite-matching",
     "assets/images/posts_img/_posts/2024-06-26-bipartite-matching",
     "assets/images/posts_img/_posts",
-    "_posts/assets/images/posts_img",
-    "_posts/assets/images",
     "_posts/2024-06-26-algorithm-geometry.md",
     "_site/나만의 readme.md",
     "README.md",
