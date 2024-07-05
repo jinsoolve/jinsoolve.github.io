@@ -68,7 +68,6 @@ public:
 [https://blog.naver.com/ndb796/221240613074](https://blog.naver.com/ndb796/221240613074)
 [https://gmlwjd9405.github.io/2018/08/23/algorithm-bipartite-graph.html](https://gmlwjd9405.github.io/2018/08/23/algorithm-bipartite-graph.html)
 
-
 ---
 # 이분매칭의 활용
 ## 최소 버텍스 커버 (Minimum Vertex Cover)

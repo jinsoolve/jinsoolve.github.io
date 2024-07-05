@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-03-example.md",
+                "file": "_posts/2024-06-24-강한-연결-요소.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b4aa4afc5cfb4f6e",
+            "id": "21c099568af211e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "file": "_posts/2024-07-05-2024년-여름-방학-계획.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "097a1b4db14101af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "나만의 readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "file": "_posts/2024-07-05-2024년-여름-방학-계획.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md",
+                "file": "_posts/2024-07-05-2024년-여름-방학-계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-26-bipartite-matching.md"
+                "file": "_posts/2024-07-05-2024년-여름-방학-계획.md"
               }
             }
           }
@@ -160,38 +172,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1be3f063fa9b02ed",
+  "active": "21c099568af211e6",
   "lastOpenFiles": [
-    "_site/assets/images/favicon/ms-icon-70x70.png",
-    "_site/assets/images/favicon/ms-icon-310x310.png",
-    "_site/assets/images/favicon/ms-icon-150x150.png",
-    "_site/assets/images/favicon/ms-icon-144x144.png",
-    "_site/assets/images/favicon/manifest.json",
-    "_site/assets/images/favicon/favicon.ico",
-    "_site/assets/images/favicon/favicon-96x96.png",
-    "_site/assets/images/favicon/favicon-32x32.png",
-    "_site/assets/images/favicon/favicon-16x16.png",
-    "_site/assets/images/favicon/browserconfig.xml",
-    "_site/assets/images/favicon/apple-icon.png",
-    "_site/assets/images/favicon/apple-icon-precomposed.png",
-    "_site/assets/images/favicon/apple-icon-76x76.png",
-    "_site/assets/images/favicon/apple-icon-72x72.png",
-    "assets/images/favicon/manifest.json",
-    "assets/images/favicon/favicon.ico",
-    "assets/images/favicon/browserconfig.xml",
-    "_site/assets/images/favicon/origin/site.webmanifest",
-    "_site/assets/images/favicon/origin/favicon.ico",
-    "_site/assets/images/favicon/origin/browserconfig.xml",
-    "_site/assets/images/favicon/origin",
-    "_posts/2024-06-26-bipartite-matching.md",
-    "_site/나만의 readme.md",
-    "나만의 readme.md",
-    "README.md",
     "_posts/2024-07-03-example.md",
-    "_pages/categories/category-diary.md",
+    "_posts/2024-07-05-2024년-여름-방학-계획.md",
+    "_posts/2024-06-26-bipartite-matching.md",
     "templates/template_default.md",
     "_posts/2024-06-24-강한-연결-요소.md",
+    "_posts/2024-07-05.md",
+    "_posts/무제 파일 2.md",
+    "_posts/prefix-2024-07-05.md",
+    "나만의 readme.md",
+    "assets/images/posts_img/IMG-2024-07-05-13-34-53-177.png",
+    "assets/images/posts_img/Pasted image 20240703143511.png",
+    "_site/scripts/image_script.py",
+    "_site/scripts",
+    "scripts/image_script.py",
+    "_site/assets/images/posts_img/IMG-2024-07-03-18-34-39-321.png",
+    "_site/Pasted image 20240703183437.png",
+    "assets/images/posts_img/IMG-2024-07-03-18-34-39-321.png",
+    "_site/assets/images/posts_img/IMG-2024-07-03-18-33-42-602.png",
+    "_site/Pasted image 20240703183340.png",
+    "assets/images/posts_img/IMG-2024-07-03-18-33-42-602.png",
+    "_site/Pasted image 20240703183325.png",
+    "Pasted image 20240703183325.png",
+    "_site/assets/images/post_img",
+    "assets/images/post_img",
+    "_posts/2024-06-26-bipartite-matching",
+    "assets/images/posts_img/_posts/2024-06-26-bipartite-matching",
+    "assets/images/posts_img/_posts",
+    "_posts/assets/images/posts_img",
+    "_posts/assets/images",
     "_posts/2024-06-26-algorithm-geometry.md",
+    "_site/나만의 readme.md",
+    "README.md",
+    "_pages/categories/category-diary.md",
     "_pages/categories/category-algorithm.md",
     "_pages/category-diary.md",
     "Untitled.md",
@@ -199,8 +214,6 @@
     "templates/template_ver1.md",
     "_posts/무제 파일 3.md",
     "templates/template_ver2.md",
-    "_posts/무제 파일 2.md",
-    "_posts/무제 파일 1.md",
     "_posts/무제 파일 6.md",
     "_posts/무제 파일 5.md",
     "templates/template_script.md",
