@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -149,34 +149,34 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_site/assets/css/fonts/RobotoMono-ThinItalic.ttf",
-    "_site/assets/css/fonts/RobotoMono-Thin.ttf",
-    "_site/assets/css/fonts/RobotoMono-SemiBoldItalic.ttf",
-    "_site/assets/css/fonts/RobotoMono-SemiBold.ttf",
-    "_site/assets/css/fonts/RobotoMono-Regular.ttf",
-    "_site/assets/css/fonts/RobotoMono-MediumItalic.ttf",
-    "_site/assets/css/fonts/RobotoMono-Medium.ttf",
-    "_site/assets/css/fonts/RobotoMono-LightItalic.ttf",
-    "_site/assets/css/fonts/RobotoMono-Light.ttf",
-    "_site/assets/css/fonts/RobotoMono-Italic.ttf",
-    "_site/assets/css/fonts/RobotoMono-ExtraLightItalic.ttf",
-    "_posts/2024-07-06-sdfsf.md",
+    "_sass/minimal-mistakes/skins/_myTheme.scss",
+    "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
+    "_site/assets/js/main.min.js.map",
+    "_site/assets/js/vendor/jquery/jquery-3.5.1.js",
+    "_site/assets/js/vendor/jquery",
+    "_site/assets/js/vendor",
+    "_site/assets/js/plugins/smooth-scroll.js",
+    "_site/assets/js/plugins/jquery.magnific-popup.js",
+    "_site/assets/js/plugins/jquery.greedy-navigation.js",
+    "_site/assets/js/plugins/jquery.fitvids.js",
+    "_site/assets/js/plugins/jquery.ba-throttle-debounce.js",
+    "_posts/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
+    "_posts/2024-07-06-kaggle-titanic.md",
+    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
+    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_20_1.png",
+    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
+    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_23_1.png",
+    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_21_1.png",
+    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_20_1.png",
+    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_23_1.png",
+    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_21_1.png",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
+    "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "_posts/2024-06-26-bipartite-matching.md",
     "assets/images/posts_img/IMG-2024-07-06-16-34-57-086.png",
-    "_site/assets/images/posts_img/IMG-2024-07-06-16-34-57-086.png",
-    "_site/Pasted image 20240706163455.png",
-    "_site/Pasted image 20240706163426.png",
-    "~/assets/images/posts_img/IMG-2024-07-06-16-34-28-554.png",
-    "Pasted image 20240706163242.png",
-    "_site/Pasted image 20240706163307.png",
-    "Pasted image 20240706163307.png",
-    "_site/Pasted image 20240706163253.png",
-    "Pasted image 20240706163253.png",
     "_posts/2024-06-26-algorithm-geometry.md",
     "나만의 readme.md",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "templates/template_default.md",
     "_posts/2024-07-06-kaggle-titanic.html.md",
     "_posts/2024-06-24-강한-연결-요소.md",
@@ -193,7 +193,6 @@
     "templates/무제 파일.md",
     "templates/template_ver1.md",
     "_posts/무제 파일 3.md",
-    "templates/template_ver2.md",
-    "_posts/무제 파일 6.md"
+    "templates/template_ver2.md"
   ]
 }

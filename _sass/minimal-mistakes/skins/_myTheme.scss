@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Light-themed Blog Skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #f5f5f5 !default;  // Light gray background
+$text-color: #333333 !default;        // Dark gray text
+$primary-color: #007acc !default;     // Deep blue primary color
+$border-color: #dcdcdc !default;      // Light gray border
+$code-background-color: #f0f0f0 !default;  // Slightly darker gray for code background
+$mark-highlight-color: rgba(114, 240, 41, 0.3) !default;  // Light green highlight
+$block-quote-background-color: rgba(114, 240, 41, 0.116) !default;  // Light green blockquote background
+$form-background-color: #e0e0e0 !default;  // Lighter gray for form backgrounds
+$footer-background-color: #f0f0f0 !default;  // Light gray footer background
+$link-color: #007acc !default;  // Deep blue links
+$link-color-hover: #0056b3 !default;  // Darker blue on hover
+$link-color-visited: #007acc !default;  // Purple visited links
+$masthead-link-color: #333333 !default;  // Dark gray masthead links
+$masthead-link-color-hover: #555555 !default;  // Slightly lighter gray on hover
+$navicon-link-color-hover: #444444 !default;  // Gray hover for navigation icons
+
+/* Syntax Highlighting (Base16) */
+$base00: #ffffff !default;
+$base01: #e0e0e0 !default;
+$base02: #d0d0d0 !default;
+$base03: #b0b0b0 !default;
+$base04: #000000 !default;
+$base05: #101010 !default;
+$base06: #151515 !default;
+$base07: #202020 !default;
+$base08: #ff0086 !default;
+$base09: #fd8900 !default;
+$base0a: #aba800 !default;
+$base0b: #00c918 !default;
+$base0c: #1faaaa !default;
+$base0d: #3777e6 !default;
+$base0e: #ad00a1 !default;
+$base0f: #cc6633 !default;
+
+/* Page Content Links */
+.page__content {
+  a,
+  a:visited {
+    color: $link-color;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+/* Pagination Buttons */
+.pagination--pager {
+  color: $text-color;
+  background-color: $primary-color;
+  border-color: transparent;
+
+  &:visited {
+    color: $text-color;
+  }
+}
