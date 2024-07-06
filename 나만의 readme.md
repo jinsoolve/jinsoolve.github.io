@@ -30,3 +30,19 @@
 	```
 2. _ data/navigation.yml 파일에 title과 url을 만든다.
 	이때, title과 url이 1.에서 했던 title과 permalink와 각각 같아야 한다.
+
+## 폰트 바꾸기
+1. /assets/css/main.scss에서 web font를 가지고 온다. 
+2. /_sass/minimal-mistakes/_variables.scss 으로 이동해서  
+   /* system typefaces */  
+   $serif: Georgia, Times, serif !default;  
+   /* 2022.01.19 font change */  
+   $sans-serif: "ONE-Mobile-Regular",  
+	위 sans-serif의 값을 수정한다.
+
+## 폰트 크기 바꾸기
+1. /_sass/minimal-mistakes/_reset.scss 으로 이동해서 바꾼다. 특히 medium이 많이 쓰이는 듯 하다.
+
+---
+# 추가 사항
+manifest가 계속 현재 경로에서 찾아서 custom.html에서 ../../을 앞에 추가해주었더니 정상 동작했다.  

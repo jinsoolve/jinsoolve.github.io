@@ -26,9 +26,9 @@ title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "your name here" # 블로그 닉네임 설정
 description: "OOOOO DevLog" # 블로그 설명
-url: "https://github-account.github.io" # 블로그 URL
+url: "https://jinsoolve.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "github-account/github-account.github.io" # GitHub Repo 이름
+repository: "jinsoolve/jinsoolve.github.io" # GitHub Repo 이름
 # logo : # 상단 헤더의 블로그 타이틀 앞에 로고 추가하고 싶을 경우 사용
 
 ---
@@ -46,33 +46,33 @@ author:
 1. [https://www.favicon-generator.org/](https://www.favicon-generator.org/) 접속하여 원하는 이미지를 favicon으로 생성
 2. 생성된 파일 `assets/images/favicon/` 디렉토리에 저장  
    \*주의) 로컬 실행 시 변경 내역이 반영되지 않을 수 있음. push 해서 확인 필요.
-3. `_layouts/default.html`의 `github-account.github.io` 부분에 본인 블로그 URL 입력
+3. `_layouts/default.html`의 `jinsoolve.github.io` 부분에 본인 블로그 URL 입력
 
 ```html
 <link
   rel="apple-touch-icon"
   sizes="180x180"
-  href="https://github-account.github.io/assets/images/favicon/apple-touch-icon.png"
+  href="https://jinsoolve.github.io/assets/images/favicon/apple-touch-icon.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="https://github-account.github.io/assets/images/favicon/favicon-32x32.png"
+  href="https://jinsoolve.github.io/assets/images/favicon/favicon-32x32.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="https://github-account.github.io/assets/images/favicon/favicon-16x16.png"
+  href="https://jinsoolve.github.io/assets/images/favicon/favicon-16x16.png"
 />
 <link
   rel="manifest"
-  href="https://github-account.github.io/assets/images/favicon/site.webmanifest"
+  href="https://jinsoolve.github.io/assets/images/favicon/site.webmanifest"
 />
 <link
   rel="mask-icon"
-  href="https://github-account.github.io/assets/images/favicon/safari-pinned-tab.svg"
+  href="https://jinsoolve.github.io/assets/images/favicon/safari-pinned-tab.svg"
   color="#5bbad5"
 />
 ```
@@ -85,13 +85,13 @@ author:
 # main links
 main:
   - title: "Home"
-    url: https://your-blog-url-here/ # 블로그 HOME 바로가기
+    url: https://jinsoolve.github.io/ # 블로그 HOME 바로가기
 
   - title: "About"
     url: /about/ #_pages/about.md 연결
 
   - title: "GitHub"
-    url: https://github.com/github-account # 깃허브 바로가기 (본인 깃허브로 변경)
+    url: https://github.com/jinsoolve # 깃허브 바로가기 (본인 깃허브로 변경)
 
 
   # 카테고리 기능이 필요하면 활성화 하기 (_pages/categories-archive.md 연결)
@@ -232,7 +232,7 @@ comments:
 
 ```yml
 # 본인 깃허브 아이디와 생성한 레파지토리 입력
-script.setAttribute('repo', 'github-account/repository-name');
+script.setAttribute('repo', 'jinsoolve/repository-name');
 # 선택한 깃허브 테마 입력
 script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
 ```
@@ -277,7 +277,7 @@ plugins:
 User-agent: *
 Allow: /
 
-Sitemap: https://github-account.github.io/sitemap.xml
+Sitemap: https://jinsoolve.github.io/sitemap.xml
 ```
 
 ### ▪ 네이버 검색 등록 (서치어드바이저)

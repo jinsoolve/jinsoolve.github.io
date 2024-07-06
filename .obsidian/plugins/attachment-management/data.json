@@ -1,6 +1,6 @@
 {
   "attachPath": {
-    "attachmentRoot": "./assets/images/posts_img",
+    "attachmentRoot": "/assets/images/posts_img",
     "saveAttE": "inFolderBelow",
     "attachmentPath": "",
     "attachFormat": "IMG-${date}",

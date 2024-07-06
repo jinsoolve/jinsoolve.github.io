@@ -15,8 +15,8 @@ $indent-var: 0.7lem !default;
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 /* 2022.01.19 font change */
-$sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", "Pretendard", "Merriweather", sans-serif !default;
-$monospace: "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monospace !default;
+$sans-serif: "RobotoMono-Regular", -apple-system, BlinkMacSystemFont,  "Montserrat", "Pretendard", "Merriweather", sans-serif, !default !default;
+$monospace: "RobotoMono-Regular", "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monospace !default;
 
 
 /* sans serif typefaces */
