@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md"
+                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-07-06-kaggle-titanic.md",
     "_sass/minimal-mistakes/skins/_myTheme.scss",
     "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
     "_site/assets/js/main.min.js.map",
@@ -159,9 +160,7 @@
     "_site/assets/js/plugins/jquery.magnific-popup.js",
     "_site/assets/js/plugins/jquery.greedy-navigation.js",
     "_site/assets/js/plugins/jquery.fitvids.js",
-    "_site/assets/js/plugins/jquery.ba-throttle-debounce.js",
     "_posts/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
     "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_20_1.png",
     "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
@@ -177,7 +176,7 @@
     "assets/images/posts_img/IMG-2024-07-06-16-34-57-086.png",
     "_posts/2024-06-26-algorithm-geometry.md",
     "나만의 readme.md",
-    "templates/template_default.md",
+    "templates/2024-07-06-.md",
     "_posts/2024-07-06-kaggle-titanic.html.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-07-03-example.md",
