@@ -1,6 +1,6 @@
 ---
 title: 
-excerpt: kaggle의 타이타닉 프로젝트
+excerpt: kaggle의 titanic project를 공부한 글
 categories: 
 tags: 
 permalink: 
@@ -11,8 +11,8 @@ last_modified_at: 2024-07-06
 ---
 
 # 서론
-링크: https://www.kaggle.com/c/titanic   
-참고: https://kaggle-kr.tistory.com/17?category=868316    
+링크: [https://www.kaggle.com/c/titanic](https://chromewebstore.google.com/detail/boj-extended/mfcaadoifdifdnigjmfbekjbhehibfel)   
+참고: [https://kaggle-kr.tistory.com/17?category=868316](https://chromewebstore.google.com/detail/boj-extended/mfcaadoifdifdnigjmfbekjbhehibfel)    
 
 타이타닉의 탑승한 사람들의 신상정보를 활용하여, 승선한 사람들의 생존여부를 예측하는 모델을 생성하는 것이 목표다.  
 코드는 참고 링크에 자세히 적혀있으니 거시적인 관점에서 흐름 위주로의 정리를 해보겠다.
