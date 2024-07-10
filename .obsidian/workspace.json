@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-2024년-여름-방학-계획.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -149,6 +149,13 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png",
+    "assets/images/posts_img/IMG-2024-07-11-02-08-25-768.png",
+    "assets/images/posts_img/IMG-2024-07-11-02-07-11-748.png",
+    "assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png",
+    "assets/images/posts_img/IMG-2024-07-11-02-05-51-694.png",
+    "assets/images/posts_img/IMG-2024-07-11-01-56-36-980.png",
+    "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-07-06-kaggle-titanic.md",
     "_sass/minimal-mistakes/skins/_myTheme.scss",
     "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
@@ -165,15 +172,9 @@
     "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_20_1.png",
     "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
     "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_23_1.png",
-    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_21_1.png",
-    "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_20_1.png",
-    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_23_1.png",
-    "타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_21_1.png",
-    "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "_posts/2024-06-26-bipartite-matching.md",
-    "assets/images/posts_img/IMG-2024-07-06-16-34-57-086.png",
     "_posts/2024-06-26-algorithm-geometry.md",
     "나만의 readme.md",
     "templates/2024-07-06-.md",
