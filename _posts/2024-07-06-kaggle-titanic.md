@@ -1,6 +1,6 @@
 ---
 title: 
-excerpt: 
+excerpt: kaggle의 타이타닉 프로젝트
 categories: 
 tags: 
 permalink: 
