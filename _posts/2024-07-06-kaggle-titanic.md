@@ -1,6 +1,6 @@
 ---
 title: 
-excerpt: kaggle의 titanic project를 공부한 글
+excerpt: kaggle titanic notebook
 categories: 
 tags: 
 permalink: 
