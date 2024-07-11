@@ -1,5 +1,5 @@
 {
-  "frontmatterProperty": "last_modified",
+  "frontmatterProperty": "last_modified_at",
   "momentFormat": "YYYY-MM-DD",
   "excludedFolders": [],
   "useKeyupEvents": false,

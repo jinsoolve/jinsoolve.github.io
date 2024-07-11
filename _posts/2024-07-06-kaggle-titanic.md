@@ -8,7 +8,7 @@ permalink:
 toc: true
 toc_sticky: true
 date: 2024-07-06
-last_modified: 2024-07-12
+last_modified_at: 2024-07-12
 ---
 
 # 서론
