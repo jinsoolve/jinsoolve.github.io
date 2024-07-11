@@ -14,6 +14,9 @@
 
 ## 이미지 첨부
 포스팅에서 이미지를 첨부할 때, 기본적으로 아무 위치에나 넣어도 되지만 경로의 맨 앞에는 '/'가 있어야 한다.
+
+---
+
 # Category
 카테고리를 추가하려면 다음과 같다.
 1. _ pages/categories/ 하위에 category-(카테고리이름).md 를 추가한다.
@@ -31,6 +34,9 @@
 2. _ data/navigation.yml 파일에 title과 url을 만든다.
 	이때, title과 url이 1.에서 했던 title과 permalink와 각각 같아야 한다.
 
+---
+# 폰트
+
 ## 폰트 바꾸기
 1. /assets/css/main.scss에서 web font를 가지고 온다. 
 2. /_sass/minimal-mistakes/_variables.scss 으로 이동해서  
@@ -42,6 +48,14 @@
 
 ## 폰트 크기 바꾸기
 1. /_sass/minimal-mistakes/_reset.scss 으로 이동해서 바꾼다. 특히 medium이 많이 쓰이는 듯 하다.
+
+---
+# 글의 좌우 폭 너비 조정하기
+1. _sass/_minimal-mistakes/_variables.scss을 본다
+2. $x-large: 1400px !default;  
+   $max-width: $x-large !default;
+3. 위 같은 코드가 있는데 max-width를 조정해줘야 최대 너비가 변화한다.   
+4. 이때 x-large변수를 사용하므로 이를 변화시켜주면 된다.
 
 ---
 # 추가 사항
