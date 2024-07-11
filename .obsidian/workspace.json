@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/template_default.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/template_default.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/template_default.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/template_default.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
     "templates/template_default.md",
+    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-12-.md",
     "_site/assets/images/posts_img/Pasted image 20240712012433.png",
     "_site/assets/images/posts_img/Pasted image 20240712012300.png",

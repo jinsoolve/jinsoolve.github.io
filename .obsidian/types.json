@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "date": "text",
-    "last_modified_at": "text"
+    "last_modified_at": "text",
+    "last_modified": "text"
   }
 }
