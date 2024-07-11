@@ -8,7 +8,7 @@ permalink:
 toc: true
 toc_sticky: true
 date: 2024-07-06
-last_modified_at: "`$= dv.current().file.mtime`"
+last_modified: 2024-07-12
 ---
 
 # 서론
@@ -17,7 +17,7 @@ last_modified_at: "`$= dv.current().file.mtime`"
 
 타이타닉의 탑승한 사람들의 신상정보를 활용하여, 승선한 사람들의 생존여부를 예측하는 모델을 생성하는 것이 목표다.  
 코드는 참고 링크에 자세히 적혀있으니 거시적인 관점에서 흐름 위주로의 정리를 해보겠다.
-  
+
 ## 해야 할 프로세스  
 1. 데이터셋 확인
 	1. Null 데이터 있는 지 확인
@@ -228,4 +228,4 @@ df_test['Fare'] = df_test['Fare'].map(lambda i: np.log(i) if i > 0 else 0)
 위 feature에 NaN은 없다.  
 String 데이터 이므로 전처리르 해줘야 모델 학습에 사용할 수 있다. 이르 어떻게 해야 할까?  
 
-데이터를 출력해보고 이를 실험해보자!
+데이터를 출력해보고 추후에 이를 실험해 보겠다.  

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "templates/template_default.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "templates/template_default.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "templates/template_default.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md"
+                "file": "templates/template_default.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-07-06-kaggle-titanic.md",
+    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "templates/template_default.md",
     "_posts/2024-07-12-.md",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_site/assets/images/posts_img/Pasted image 20240712012433.png",
     "_site/assets/images/posts_img/Pasted image 20240712012300.png",
     "_site/assets/images/posts_img/Pasted image 20240712012036.png",
@@ -162,7 +163,6 @@
     "_site/assets/images/posts_img/Pasted image 20240712010956.png",
     "_site/assets/images/posts_img/Pasted image 20240712010907.png",
     "_site/assets/images/posts_img/Pasted image 20240712010754.png",
-    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_site/problem solving/Atcoder-Typical-90/index.html",
     "_site/problem solving/Atcoder-Typical-90",
     "_site/problem solving",
