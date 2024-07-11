@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f40dd73fb1ef5381",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bdc4a9fa7259b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_pages/categories/category-problem-solving.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md"
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
               }
             }
           }
@@ -172,15 +147,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f40dd73fb1ef5381",
+  "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-06-kaggle-titanic.md",
+    "_pages/categories/category-problem-solving.md",
+    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
-    "_pages/categories/category-problem-solving.md",
     "templates/template_default.md",
     "templates/무제 파일.md",
     "assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png",
