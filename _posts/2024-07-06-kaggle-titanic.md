@@ -78,21 +78,25 @@ Pclass는 ordinal, 서수형 데이터이다. 카테고리이면서 순서가 �
 각 Pclass에 따른 생존 비율을 한 번 살펴보자.  
 ```python
 df_train[['Pclass', 'Survived']].groupby(['Pclass'], as_index=True).count()
-```
+```  
 ![](/assets/images/posts_img/IMG-2024-07-11-02-05-51-694.png)
 ```python
 df_train[['Pclass', 'Survived']].groupby(['Pclass'], as_index=True).sum()
 ```
-![](/assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png)
+![](/assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png)  
+
 위와 같이 .groupby() 함수를 이용해서 Pclass로 묶고 Survived의 여부의 값들을 .count() 하면 각 클래스마다 몇 명의 인원이 있는지 확인할 수 있고, .sum()을 하면 각 클래스마다 몇 명이 생존했는지 확인할 수 있다.
 
 
 pandas의 crosstab을 사용하면 위 과정을 좀 더 수월하게 해볼 수 있다.
 ![](/assets/images/posts_img/IMG-2024-07-11-02-07-11-748.png)
+
 또한 그룹 객체에 mean()을 하게 되면, 각 클래스 별 생존률을 얻을 수 있다.
 ![](/assets/images/posts_img/IMG-2024-07-11-02-08-25-768.png)
+
 여기에 seaborn과 countplot을 사용하면, 특정 label에 따른 개수를 확인해 볼 수 있다.
 ![](/assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png)
+
 보다시피, Pclass가 좋을 수록 생존확률이 높은 것을 확인할 수 있다.   
 여기에서 우리는 생존에 Pclass가 큰 영향을 미친다고 생각해 볼 수 있다. 나중에 모델을 세울 때 이 feature을 사용하는 것이 좋을 것이라 판단할 수 있다.
 
@@ -100,19 +104,21 @@ pandas의 crosstab을 사용하면 위 과정을 좀 더 수월하게 해볼 수
 이번에는 성별로 생존률이 어떻게 달라지는 지 보자  
 마찬가지로 pandas의 groupby와 seaborn countplot을 사용해서 시각화 해본다.
 ![](/assets/images/posts_img/Pasted%20image%2020240712010319.png)
+
 결과를 보다시피 여성의 생존확률이 높았다.
 
 ### 2.3 Both Sex and Pclass
 이번에는 sex와 pclass의 연관도를 살펴보자.  
 seaborn의 factorplot을 이용하면 손쉽게 3차원으로 이루어진 그래프를 그릴 수 있다.  
-![](assets/images/posts_img/Pasted%20image%2020240712010754.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712010754.png)
 
 모든 클래스에서 female이 male 보다 생존률이 높은 것을 확인할 수 있다.  
 또한 성별 상관없이 pclass가 높을수록 생존확률이 높다.  
 
 ### 2.4 Age
 이번에는 연령대에 따른 생존률을 확인해보자.  
-![](assets/images/posts_img/Pasted%20image%2020240712010907.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712010907.png)
+
 10~50대의 연령층이 비교적 생존자가 많은 것을 알 수 있다.  
 
 여기에 pclass를 넣어서 확인해보자.  
@@ -127,10 +133,10 @@ plt.xlabel('Age')
 plt.title('Age Distribution within classes')
 plt.legend(['1st Class', '2nd Class', '3rd Class'])
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712010956.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712010956.png)
 
 생존확률을 그려보자.
-![](assets/images/posts_img/Pasted%20image%2020240712011111.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712011111.png)
 
 ### 2.5 Pclass, Sex, Age
 지금까지 본 Sex, Pclass, Age, Survived 모두에 대해서 보고 싶다. 이를 쉽게 그려주는 것이 seaborn의 violinplot이다.  
@@ -145,7 +151,7 @@ ax[1].set_title('Sex and Age vs Survived')
 ax[1].set_yticks(range(0,110,10))
 plt.show()
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712011309.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712011309.png)
 왼쪽은 Pclass 별로 Age의 distribution을 볼 수 있고, 오른 쪽은 성별 별로 Age의 distribution을 확인할 수 있다.  
 
 ### 2.6 Embarked
@@ -156,7 +162,7 @@ plt.show()
 f, ax = plt.subplots(1, 1, figsize=(7, 7))
 df_train[['Embarked', 'Survived']].groupby(['Embarked'], as_index=True).mean().sort_values(by='Survived', ascending=False).plot.bar(ax=ax)
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712011445.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712011445.png)
 보다시피, 약간의 차이는 있지만 전체적으로 큰 차이는 나지 않는다. 그래도 C가 가장 생존률이 높다는 것을 알 수 있다.  
 모델에 얼마나 유용할 지 모르겠지만 그래도 한 번 사용해 보자.
 
@@ -176,7 +182,7 @@ ax[1,1].set_title('(4) Embarked vs Pclass')
 plt.subplots_adjust(wspace=0.2, hspace=0.5)
 plt.show()
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712011650.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712011650.png)
 - Figure1  
 	전체 인원을 살펴보니, S에서 가장 많이 탑승했음을 알 수 있다.
 - Figure2  
@@ -192,14 +198,14 @@ plt.show()
 df_train['FamilySize'] = df_train['SibSp'] + df_train['Parch'] + 1 # 자신을 포함해야하니 1을 더합니다
 df_test['FamilySize'] = df_test['SibSp'] + df_test['Parch'] + 1 # 자신을 포함해야하니 1을 더합니다
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712012036.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712012036.png)
 - 가족크기가 1 ~ 11 까지 있다는 것을 알 수 있다.
 - 가족 크기에 따라 생존률이 달라진다는 것을 알 수 있다. 4명의 가족인원의 생존확률이 가장 높고 그보다 커진다면 생존확률이 줄어든 다는 것을 알 수 있다. 
 
 ### 2.8 Fare
 Fare는 탑승 요금이고 continous feature이다.  
 마찬가지로 그래프를 그려보자.
-![](assets/images/posts_img/Pasted%20image%2020240712012300.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712012300.png)
 분포가 비대칭이다. 이를 그대로 모델에 학습시킨다면 모델이 잘못 학습시킬 가능성이 있다.  
 이를 fare column에 log를 취해 비대칭성을 줄이는 기법을 사용해 볼 수 있다.
 ```python
@@ -209,7 +215,7 @@ df_test.loc[df_test.Fare.isnull(), 'Fare'] = df_test['Fare'].mean() # testset �
 df_train['Fare'] = df_train['Fare'].map(lambda i: np.log(i) if i > 0 else 0)
 df_test['Fare'] = df_test['Fare'].map(lambda i: np.log(i) if i > 0 else 0)
 ```
-![](assets/images/posts_img/Pasted%20image%2020240712012433.png)
+![](/assets/images/posts_img/Pasted%20image%2020240712012433.png)
 위와 같이 비대칭성이 많이 사라진 것을 볼 수 있다.  
 사실 위 부분은 feature engineering에 들어가는 부분인데 여기서 작업했다.  
 모델을 학습시킬 때 성능을 높이기 위해 feature들에 여러 조작을 가하거나 새로운 feature를 추가하는 것을 feature engineering이라 한다.
