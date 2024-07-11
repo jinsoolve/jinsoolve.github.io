@@ -90,7 +90,6 @@ df_train[['Pclass', 'Survived']].groupby(['Pclass'], as_index=True).sum()
 
 pandas의 crosstab을 사용하면 위 과정을 좀 더 수월하게 해볼 수 있다.
 ![](/assets/images/posts_img/IMG-2024-07-11-02-07-11-748.png)
-
 또한 그룹 객체에 mean()을 하게 되면, 각 클래스 별 생존률을 얻을 수 있다.
 ![](/assets/images/posts_img/IMG-2024-07-11-02-08-25-768.png)
 
