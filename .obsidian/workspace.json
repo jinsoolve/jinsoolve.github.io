@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_pages/categories/category-problem-solving.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -172,10 +172,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7bdc4a9fa7259b98",
+  "active": "f40dd73fb1ef5381",
   "lastOpenFiles": [
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
+    "_posts/2024-07-06-kaggle-titanic.md",
+    "_posts/2024-07-06-2024년-여름-방학-계획.md",
+    "_posts/2024-06-26-bipartite-matching.md",
+    "_posts/2024-06-24-강한-연결-요소.md",
+    "_posts/2024-06-26-algorithm-geometry.md",
+    "_pages/categories/category-problem-solving.md",
     "templates/template_default.md",
     "templates/무제 파일.md",
     "assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png",
@@ -184,7 +189,6 @@
     "assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png",
     "assets/images/posts_img/IMG-2024-07-11-02-05-51-694.png",
     "assets/images/posts_img/IMG-2024-07-11-01-56-36-980.png",
-    "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_sass/minimal-mistakes/skins/_myTheme.scss",
     "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
     "_site/assets/js/main.min.js.map",
@@ -201,11 +205,8 @@
     "_site/타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning_26_0.png",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
-    "_posts/2024-06-26-bipartite-matching.md",
-    "_posts/2024-06-26-algorithm-geometry.md",
     "나만의 readme.md",
     "_posts/2024-07-06-kaggle-titanic.html.md",
-    "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-07-03-example.md",
     "_posts/2024-07-05.md",
     "_posts/무제 파일 2.md",

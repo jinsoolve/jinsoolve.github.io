@@ -1,7 +1,8 @@
 ---
 title: 
 excerpt: kaggle titanic notebook
-categories: 
+categories:
+  - Machine Learning
 tags: 
 permalink: 
 toc: true

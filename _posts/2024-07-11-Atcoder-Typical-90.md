@@ -1,7 +1,8 @@
 ---
 title: 
 excerpt: Atcoder Typical 90 문제 풀이
-categories: 
+categories:
+  - Problem Solving
 tags: 
 permalink: 
 toc: true
