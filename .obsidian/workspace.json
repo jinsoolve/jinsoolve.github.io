@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tp.date",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -149,36 +149,36 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "assets/images/posts_img/Pasted image 20240712012433.png",
+    "assets/images/posts_img/Pasted image 20240712012300.png",
+    "assets/images/posts_img/Pasted image 20240712012036.png",
+    "assets/images/posts_img/Pasted image 20240712011650.png",
+    "assets/images/posts_img/Pasted image 20240712011445.png",
+    "assets/images/posts_img/Pasted image 20240712011309.png",
+    "assets/images/posts_img/Pasted image 20240712011111.png",
+    "assets/images/posts_img/Pasted image 20240712010956.png",
+    "assets/images/posts_img/Pasted image 20240712010907.png",
+    "assets/images/posts_img/Pasted image 20240712010754.png",
+    "assets/images/posts_img/Pasted image 20240712010319.png",
+    "_posts/2024-07-06-kaggle-titanic.md",
+    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_site/problem solving/Atcoder-Typical-90/index.html",
     "_site/problem solving/Atcoder-Typical-90",
     "_site/problem solving",
     "_site/machine learning/kaggle-titanic/index.html",
     "_site/machine learning/kaggle-titanic",
     "_site/machine learning",
-    "_site/assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png",
-    "_site/assets/images/posts_img/IMG-2024-07-11-02-08-25-768.png",
-    "_site/assets/images/posts_img/IMG-2024-07-11-02-07-11-748.png",
-    "_site/assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png",
-    "_site/assets/images/posts_img/IMG-2024-07-11-02-05-51-694.png",
-    "_site/assets/images/posts_img/IMG-2024-07-11-01-56-36-980.png",
     "_site/page2/index.html",
     "_site/page2",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_pages/categories/category-problem-solving.md",
-    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "templates/template_default.md",
     "templates/무제 파일.md",
-    "assets/images/posts_img/IMG-2024-07-11-02-10-32-739.png",
-    "assets/images/posts_img/IMG-2024-07-11-02-08-25-768.png",
-    "assets/images/posts_img/IMG-2024-07-11-02-07-11-748.png",
-    "assets/images/posts_img/IMG-2024-07-11-02-05-59-220.png",
     "_sass/minimal-mistakes/skins/_myTheme.scss",
     "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
-    "_site/assets/js/main.min.js.map",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "나만의 readme.md",
