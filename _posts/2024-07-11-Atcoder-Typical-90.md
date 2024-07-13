@@ -302,4 +302,4 @@ int main(void) {
 stack 이 더 좋은 풀이인데 익숙한 segment부터 떠올렸다.  
 stack이나 two-pointer 같은 기법도 한 번 정리해서 쭉 밀어봐야 할 것 같다.  
 
-비슷한 문제로는 [백준 2812 - 크게 만들기](https://www.acmicpc.net/problem/2812)가 있다. 해당 문제는 3년 전에 stack으로 풀었는데 기억하지 못 한 걸 보니 재활이 필요한 ㄷ
+비슷한 문제로는 [백준 2812 - 크게 만들기](https://www.acmicpc.net/problem/2812)가 있다. 해당 문제는 3년 전에 stack으로 풀었는데 기억하지 못 한 걸 보니 재활이 필요한 듯 하다.
