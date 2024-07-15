@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
-                "mode": "source",
+                "file": "나만의 readme.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.50390243530273
+    "width": 200
   },
   "right": {
     "id": "8c6d07e825cc2cc7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "나만의 readme.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "나만의 readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
+                "file": "나만의 readme.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,36 +149,39 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_posts/2024-07-06-kaggle-titanic.md",
+    "templates/default.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
-    "templates/template_default.md",
+    "_posts/2024-07-15-sdfsf.md",
+    "_posts/2024-07-06-kaggle-titanic.md",
+    "_posts/2024-07-15-무제 파일.md",
+    "templates",
+    "scripts/image_script.py",
+    "scripts",
+    "assets/js/vendor/jquery/jquery-3.5.1.js",
+    "assets/js/vendor/jquery",
+    "assets/js/plugins/smooth-scroll.js",
+    "assets/js/plugins/jquery.magnific-popup.js",
+    "assets/js/plugins/jquery.greedy-navigation.js",
+    "assets/js/plugins/jquery.fitvids.js",
+    "assets/js/plugins/jquery.ba-throttle-debounce.js",
+    "assets/images/posts_img/readme/ver2_1_main.png",
+    "assets/images/posts_img/readme/blog-main-ver2.png",
+    "assets/images/posts_img/readme/blog-main-ver1.png",
+    "assets/images/posts_img/Pasted image 20240712012433.png",
+    "assets/images/posts_img/Pasted image 20240712012300.png",
+    "assets/images/posts_img/Pasted image 20240712012036.png",
+    "assets/images/posts_img/Pasted image 20240712011650.png",
+    "assets/images/posts_img/Pasted image 20240712011445.png",
+    "assets/images/posts_img/Pasted image 20240712011309.png",
+    "assets/images/favicon/origin/safari-pinned-tab.svg",
+    "_posts/무제 파일 1.md",
+    "_pages/무제 파일.md",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-07-12-.md",
-    "_site/assets/images/posts_img/Pasted image 20240712012433.png",
-    "_site/assets/images/posts_img/Pasted image 20240712012300.png",
-    "_site/assets/images/posts_img/Pasted image 20240712012036.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011650.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011445.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011309.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011111.png",
-    "_site/assets/images/posts_img/Pasted image 20240712010956.png",
-    "_site/assets/images/posts_img/Pasted image 20240712010907.png",
-    "_site/assets/images/posts_img/Pasted image 20240712010754.png",
-    "_site/problem solving/Atcoder-Typical-90/index.html",
-    "_site/problem solving/Atcoder-Typical-90",
-    "_site/problem solving",
-    "_site/machine learning/kaggle-titanic/index.html",
-    "_site/machine learning/kaggle-titanic",
-    "_site/machine learning",
-    "_site/page2/index.html",
-    "_site/page2",
     "_pages/categories/category-problem-solving.md",
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
-    "templates/무제 파일.md",
-    "_sass/minimal-mistakes/skins/_myTheme.scss",
-    "_site/assets/js/vendor/jquery/jquery-3.6.0.js",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "나만의 readme.md",
@@ -190,10 +193,6 @@
     "_site/나만의 readme.md",
     "README.md",
     "_pages/categories/category-diary.md",
-    "_pages/categories/category-algorithm.md",
-    "_pages/category-diary.md",
-    "Untitled.md",
-    "templates/template_ver1.md",
-    "_posts/무제 파일 3.md"
+    "_pages/categories/category-algorithm.md"
   ]
 }

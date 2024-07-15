@@ -1,3 +1,6 @@
+---
+last_modified_at: 2024-07-15
+---
 # Posting
 
 1. _ posts/YYYY-MM-DD-(나만의-제목) 이런식으로 포스팅한다.
@@ -52,7 +55,7 @@
 ---
 # 글의 좌우 폭 너비 조정하기
 1. _sass/_minimal-mistakes/_variables.scss을 본다
-2. $x-large: 1400px !default;  
+2. \$x-large: 1400px !default;  
    $max-width: $x-large !default;
 3. 위 같은 코드가 있는데 max-width를 조정해줘야 최대 너비가 변화한다.   
 4. 이때 x-large변수를 사용하므로 이를 변화시켜주면 된다.

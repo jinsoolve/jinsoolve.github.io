@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "_posts",
-      "template": "templates/template_default.md"
+      "template": "templates/default.md"
     }
   ],
   "syntax_highlighting": true,
@@ -25,7 +25,7 @@
     ""
   ],
   "startup_templates": [
-    "templates/template_default.md"
+    "templates/default.md"
   ],
   "enable_ribbon_icon": true
 }

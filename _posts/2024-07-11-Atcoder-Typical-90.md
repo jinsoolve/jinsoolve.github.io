@@ -8,7 +8,7 @@ permalink:
 toc: true
 toc_sticky: true
 date: 2024-07-11
-last_modified_at: 2024-07-12
+last_modified_at: 2024-07-15
 ---
 
 Atcoder Typical 90 문제들을 풀면서 인상깊었던 문제들만을 정리해 놓을 생각이다.
