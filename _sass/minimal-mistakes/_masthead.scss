@@ -13,7 +13,11 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 999;
+  transition: transform 0.1s ease-in-out;
 
+  &.is-hidden {
+    transform: translateY(-100%);
+  }
 
   &__inner-wrap {
     @include clearfix;
