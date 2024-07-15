@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나만의 readme.md"
+                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
               }
             }
           }
@@ -149,31 +149,32 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "나만의 readme.md",
+    "_sass/custom/custom.scss",
+    "_sass/custom",
+    "_site/problem solving/Atcoder-Typical-90/index.html",
+    "_site/problem solving/Atcoder-Typical-90",
+    "_site/problem solving",
+    "_site/machine learning/kaggle-titanic/index.html",
+    "_site/machine learning/kaggle-titanic",
+    "_site/machine learning",
+    "_site/diary/2024년-여름-방학-계획/index.html",
+    "_site/diary/2024년-여름-방학-계획",
+    "_site/screenshot.png",
+    "_site/screenshot-layouts.png",
+    "_site/assets/images/posts_img/readme/ver2_1_main.png",
+    "_site/assets/images/posts_img/readme/blog-main-ver2.png",
+    "_site/assets/images/posts_img/readme/blog-main-ver1.png",
+    "_site/assets/images/posts_img/Pasted image 20240712012433.png",
+    "_site/assets/images/posts_img/Pasted image 20240712012300.png",
+    "_site/assets/images/posts_img/Pasted image 20240712012036.png",
+    "_site/assets/images/posts_img/Pasted image 20240712011650.png",
+    "_site/assets/images/posts_img/Pasted image 20240712011445.png",
     "templates/default.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-15-sdfsf.md",
     "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-15-무제 파일.md",
-    "templates",
-    "scripts/image_script.py",
-    "scripts",
-    "assets/js/vendor/jquery/jquery-3.5.1.js",
-    "assets/js/vendor/jquery",
-    "assets/js/plugins/smooth-scroll.js",
-    "assets/js/plugins/jquery.magnific-popup.js",
-    "assets/js/plugins/jquery.greedy-navigation.js",
-    "assets/js/plugins/jquery.fitvids.js",
-    "assets/js/plugins/jquery.ba-throttle-debounce.js",
-    "assets/images/posts_img/readme/ver2_1_main.png",
-    "assets/images/posts_img/readme/blog-main-ver2.png",
-    "assets/images/posts_img/readme/blog-main-ver1.png",
-    "assets/images/posts_img/Pasted image 20240712012433.png",
-    "assets/images/posts_img/Pasted image 20240712012300.png",
-    "assets/images/posts_img/Pasted image 20240712012036.png",
-    "assets/images/posts_img/Pasted image 20240712011650.png",
-    "assets/images/posts_img/Pasted image 20240712011445.png",
-    "assets/images/posts_img/Pasted image 20240712011309.png",
-    "assets/images/favicon/origin/safari-pinned-tab.svg",
     "_posts/무제 파일 1.md",
     "_pages/무제 파일.md",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
@@ -184,7 +185,6 @@
     "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
-    "나만의 readme.md",
     "_posts/2024-07-06-kaggle-titanic.html.md",
     "_posts/2024-07-03-example.md",
     "_posts/2024-07-05.md",
