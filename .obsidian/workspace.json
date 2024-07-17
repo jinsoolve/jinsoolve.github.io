@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md"
+                "file": "나만의 readme.md"
               }
             }
           }
@@ -149,12 +149,12 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-07-17-UCPC-2024-예선.md",
     "_site/assets/js/mathjax-config.js",
     "assets/js/mathjax-config.js",
     "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-17-Kaggle-Curriculum.md",
-    "_posts/2024-07-17-UCPC-2024-예선.md",
     "googlebfc191ceda519cfa.html",
     "google6fd95c823386e874.html",
     "_posts/my-titanic-notebook.md",
@@ -175,7 +175,6 @@
     "_site/problem solving/Atcoder-Typical-90/index.html",
     "_site/problem solving/Atcoder-Typical-90",
     "_site/problem solving",
-    "_site/machine learning/kaggle-titanic/index.html",
     "_site/screenshot.png",
     "_site/screenshot-layouts.png",
     "templates/default.md",

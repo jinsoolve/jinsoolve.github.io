@@ -412,5 +412,8 @@ input[type="submit"],
 
 /* MathJax 수식 블록에 가로 스크롤 추가 */
 mjx-container {
-  overflow: auto;
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
 }

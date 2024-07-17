@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2024-07-15
+last_modified_at: 2024-07-17
 ---
 # Posting
 
@@ -42,7 +42,7 @@ last_modified_at: 2024-07-15
 
 ## 폰트 바꾸기
 1. /assets/css/main.scss에서 web font를 가지고 온다. 
-2. /_sass/minimal-mistakes/_variables.scss 으로 이동해서  
+2. /\_sass/minimal-mistakes/\_variables.scss 으로 이동해서  
    /* system typefaces */  
    $serif: Georgia, Times, serif !default;  
    /* 2022.01.19 font change */  
@@ -50,18 +50,63 @@ last_modified_at: 2024-07-15
 	위 sans-serif의 값을 수정한다.
 
 ## 폰트 크기 바꾸기
-1. /_sass/minimal-mistakes/_reset.scss 으로 이동해서 바꾼다. 특히 medium이 많이 쓰이는 듯 하다.
+1. /\_sass/minimal-mistakes/\_reset.scss 으로 이동해서 바꾼다. 특히 medium이 많이 쓰이는 듯 하다.
 
 ---
 # 글의 좌우 폭 너비 조정하기
-1. _sass/_minimal-mistakes/_variables.scss을 본다
+1. \_sass/_minimal-mistakes/_variables.scss을 본다
 2. \$x-large: 1400px !default;  
    $max-width: $x-large !default;
 3. 위 같은 코드가 있는데 max-width를 조정해줘야 최대 너비가 변화한다.   
 4. 이때 x-large변수를 사용하므로 이를 변화시켜주면 된다.
 
 ---
+# 수식 블록 조정
+1. \_layouts/deafult.html에 `{% include mathjax_support.html %}` 넣기
+2. \_includes/mathjax_support.html에 아래 코드 넣기
+	```html
+	<script type="text/javascript"  
+	        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML-full,Safe,https://DOMAIN/config.js">  
+	</script>  
+	<script type="text/javascript" id="MathJax-script" async  
+	        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">  
+	</script>  
+	  
+	<script type="text/x-mathjax-config">  
+	    MathJax.Hub.Config({  
+	    extensions: ["tex2jax.js"],  
+	    jax: ["input/TeX", "output/HTML-CSS"],  
+	    tex2jax: {  
+	        inlineMath: [ ['$','$'], ["\\(","\\)"] ],  
+	        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],  
+	        processEscapes: true  
+	    },  
+	    "HTML-CSS": {  
+	        availableFonts: ["TeX"],  
+	        linebreaks: {  
+	            automatic: true
+	        }  
+	    }  
+	  });  
+	</script>
+	
+	```
+	- linebreaks의 automatic: true가 inline 수식 블록을 line break해준다.
+	- version3가 인라인 수식을 안 먹어서 version2.7.5도 같이 넣어줬다.
+	- version3에서 수식 블록의 가로스크롤이 가능해졌다.
+3. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
+	```scss
+	mjx-container {  
+	  display: block;  
+	  overflow-x: auto;  
+	  overflow-y: hidden;  
+	  max-width: 100%;  
+	}
+	```
+
+
+---
 # 추가 사항
 - manifest가 계속 현재 경로에서 찾아서 custom.html에서 ../../을 앞에 추가해주었더니 정상 동작했다.  
-- theme가 적용이 안 돼서 찾아보니 _base.scss의 106, 121줄을 주석처리 했더니 해결됐다.
+- theme가 적용이 안 돼서 찾아보니 \_base.scss의 106, 121줄을 주석처리 했더니 해결됐다.
 
