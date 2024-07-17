@@ -113,7 +113,7 @@ last_modified_at: 2024-07-17
 	- version3가 인라인 수식을 안 먹어서 version2.7.5도 같이 넣어줬다.
 	- version3에서 수식 블록의 가로스크롤이 가능해졌다.
 	- 윈도우 크기가 resize 될 때마다 rerender 할 수 있도록 설정했다. delay의 값을 100ms으로 해서 해당 delay 후 새로고침된다. delay 값을 키울 수록 더 늦게 새로고침된다.
-1. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
+3. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
 	```scss
 	mjx-container {  
 	  display: block;  
@@ -122,6 +122,12 @@ last_modified_at: 2024-07-17
 	  max-width: 100%;  
 	}
 	```
+
+
+---
+# 헤더 스크롤 시 숨겼다 나왔다 시키기
+1. \_masthead.scss에서 hidden 속성을 만들었다.
+2. \_includes/head/custom.html에 script 코드를 넣었다.
 
 
 ---
