@@ -45,9 +45,12 @@
                 document.querySelector('.masthead').classList.add('is-hidden');
             } else {
                 // Scroll Up
-                if (st + window.innerHeight < document.body.scrollHeight) {
-                    document.querySelector('.masthead').classList.remove('is-hidden');
-                }
+                document.querySelector('.masthead').classList.remove('is-hidden');
+            }
+
+            // Show masthead if near the top of the page
+            if (st < navbarHeight) {
+                document.querySelector('.masthead').classList.remove('is-hidden');
             }
 
             lastScrollTop = st;
@@ -58,4 +61,11 @@
 
 
 
-<!-- end custom head snippets -->
+
+
+
+
+
+
+
+    <!-- end custom head snippets -->
