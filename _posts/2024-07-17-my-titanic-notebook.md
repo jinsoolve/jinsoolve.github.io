@@ -239,7 +239,7 @@ bar_chart('Sex')
 
 
     
-![png](assets/images/posts_img/my-titanic-notebook_4_0.png)
+![png](/assets/images/posts_img/my-titanic-notebook_4_0.png)
     
 
 
@@ -570,7 +570,7 @@ bar_chart('Title')
 
 
     
-![png](assets/images/posts_img/my-titanic-notebook_11_0.png)
+![png](/assets/images/posts_img/my-titanic-notebook_11_0.png)
     
 
 
@@ -1953,7 +1953,7 @@ bar_chart('Age')
 
 
     
-![png](assets/images/posts_img/my-titanic-notebook_19_0.png)
+![png](/assets/images/posts_img/my-titanic-notebook_19_0.png)
     
 
 
@@ -1976,7 +1976,7 @@ df.plot(kind='bar', stacked=True, figsize=(10,5))
 
 
     
-![png](assets/images/posts_img/my-titanic-notebook_20_1.png)
+![png](/assets/images/posts_img/my-titanic-notebook_20_1.png)
     
 
 
@@ -4621,5 +4621,3 @@ submission.head()
 
 
 
-
-`
