@@ -8,7 +8,7 @@ permalink:
 toc: true
 toc_sticky: true
 date: 2024-07-06
-last_modified_at: 2024-07-12
+last_modified_at: 2024-07-17
 ---
 
 # 서론
@@ -226,6 +226,6 @@ df_test['Fare'] = df_test['Fare'].map(lambda i: np.log(i) if i > 0 else 0)
 
 ### 2.10 Ticket
 위 feature에 NaN은 없다.  
-String 데이터 이므로 전처리르 해줘야 모델 학습에 사용할 수 있다. 이르 어떻게 해야 할까?  
+String 데이터 이므로 전처리를 해줘야 모델 학습에 사용할 수 있다. 이를 어떻게 해야 할까?  
 
 데이터를 출력해보고 추후에 이를 실험해 보겠다.  

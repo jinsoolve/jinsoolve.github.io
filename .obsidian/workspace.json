@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-17-my-titanic-notebook.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-17-my-titanic-notebook.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md",
+                "file": "_posts/2024-07-17-my-titanic-notebook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-06-kaggle-titanic.md"
+                "file": "_posts/2024-07-17-my-titanic-notebook.md"
               }
             }
           }
@@ -149,7 +149,21 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/my-titanic-notebook.md",
+    "_posts/2024-07-17-my-titanic-notebook.md",
+    "assets/images/posts_img/my-titanic-notebook_20_1.png",
+    "assets/images/posts_img/my-titanic-notebook_4_0.png",
+    "assets/images/posts_img/my-titanic-notebook_4_0.png",
+    "assets/images/posts_img/my-titanic-notebook_19_0.png",
+    "assets/images/posts_img/my-titanic-notebook_11_0.png",
+    "my-titanic-notebook_files",
+    "_posts/2024-06-26-bipartite-matching.md",
+    "_posts/2024-06-24-강한-연결-요소.md",
+    "_posts/2024-06-26-algorithm-geometry.md",
+    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
+    "assets/images/posts_img/my-titanic-notebook_19_0.png",
+    "assets/images/posts_img/my-titanic-notebook_11_0.png",
     "나만의 readme.md",
     "_sass/custom/custom.scss",
     "_sass/custom",
@@ -160,29 +174,16 @@
     "_site/machine learning/kaggle-titanic",
     "_site/machine learning",
     "_site/diary/2024년-여름-방학-계획/index.html",
-    "_site/diary/2024년-여름-방학-계획",
     "_site/screenshot.png",
     "_site/screenshot-layouts.png",
-    "_site/assets/images/posts_img/readme/ver2_1_main.png",
-    "_site/assets/images/posts_img/readme/blog-main-ver2.png",
-    "_site/assets/images/posts_img/readme/blog-main-ver1.png",
-    "_site/assets/images/posts_img/Pasted image 20240712012433.png",
-    "_site/assets/images/posts_img/Pasted image 20240712012300.png",
-    "_site/assets/images/posts_img/Pasted image 20240712012036.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011650.png",
-    "_site/assets/images/posts_img/Pasted image 20240712011445.png",
     "templates/default.md",
     "_posts/2024-07-15-sdfsf.md",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-15-무제 파일.md",
     "_posts/무제 파일 1.md",
     "_pages/무제 파일.md",
     "_posts/2024-07-06-2024년-여름-방학-계획.md",
     "_posts/2024-07-12-.md",
     "_pages/categories/category-problem-solving.md",
-    "_posts/2024-06-26-bipartite-matching.md",
-    "_posts/2024-06-24-강한-연결-요소.md",
-    "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-07-06-sdfsf.md",
     "_posts/2024-07-05-2024년-여름-방학-계획.md",
     "_posts/2024-07-06-kaggle-titanic.html.md",
@@ -191,8 +192,6 @@
     "_posts/무제 파일 2.md",
     "_posts/prefix-2024-07-05.md",
     "_site/나만의 readme.md",
-    "README.md",
-    "_pages/categories/category-diary.md",
-    "_pages/categories/category-algorithm.md"
+    "README.md"
   ]
 }
