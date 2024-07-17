@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-17-my-titanic-notebook.md",
+                "file": "_posts/2024-07-17-Kaggle-Curriculum.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-17-my-titanic-notebook.md",
+                "file": "_posts/2024-07-17-Kaggle-Curriculum.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-17-my-titanic-notebook.md",
+                "file": "_posts/2024-07-17-Kaggle-Curriculum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-17-my-titanic-notebook.md"
+                "file": "_posts/2024-07-17-Kaggle-Curriculum.md"
               }
             }
           }
@@ -150,7 +150,8 @@
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
     "_posts/my-titanic-notebook.md",
-    "_posts/2024-07-17-my-titanic-notebook.md",
+    "_posts/2024-07-17-Kaggle-Curriculum.md",
+    "_posts/2024-07-06-kaggle-titanic.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
@@ -160,7 +161,6 @@
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
-    "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
