@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md",
+                "file": "_posts/2024-07-06-kaggle-titanic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-11-Atcoder-Typical-90.md"
+                "file": "_posts/2024-07-06-kaggle-titanic.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "나만의 readme.md",
     "_sass/custom/custom.scss",
     "_sass/custom",
@@ -171,7 +172,6 @@
     "_site/assets/images/posts_img/Pasted image 20240712011650.png",
     "_site/assets/images/posts_img/Pasted image 20240712011445.png",
     "templates/default.md",
-    "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-15-sdfsf.md",
     "_posts/2024-07-06-kaggle-titanic.md",
     "_posts/2024-07-15-무제 파일.md",
