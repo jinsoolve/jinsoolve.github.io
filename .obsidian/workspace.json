@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
+                "file": "나만의 readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-17-UCPC-2024-예선.md"
+                "file": "나만의 readme.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "나만의 readme.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
+    "나만의 readme.md",
     "_site/assets/js/mathjax-config.js",
     "assets/js/mathjax-config.js",
     "_posts/2024-07-06-kaggle-titanic.md",

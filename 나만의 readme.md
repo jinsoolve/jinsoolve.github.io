@@ -65,36 +65,55 @@ last_modified_at: 2024-07-17
 1. \_layouts/deafult.html에 `{% include mathjax_support.html %}` 넣기
 2. \_includes/mathjax_support.html에 아래 코드 넣기
 	```html
+		  
+	<script type="text/x-mathjax-config">  
+	    MathJax.Hub.Config({  
+	        extensions: ["tex2jax.js"],  
+	        jax: ["input/TeX", "output/HTML-CSS"],  
+	        tex2jax: {  
+	            inlineMath: [ ['$','$'], ["\\(","\\)"] ],  
+	            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],  
+	            processEscapes: true  
+	        },  
+	  
+	        "HTML-CSS": {  
+	            availableFonts: ["TeX"],  
+	            linebreaks: {  
+	                automatic: true  
+	            }  
+	        }  
+	    });  
+	  
+	    window.addEventListener('resize', MJrerender);  
+	    let t = -1;  
+	    let delay = 100;  
+	    function MJrerender() {  
+	      if (t >= 0) {  
+	        // If we are still waiting, then the user is still resizing =>  
+	        // postpone the action further!  
+	        window.clearTimeout(t);  
+	      }  
+	      t = window.setTimeout(function() {  
+	        MathJax.Hub.Queue(["Rerender",MathJax.Hub]);  
+	        t = -1; // Reset the handle  
+	      }, delay);  
+	    };  
+	</script>  
+	  
+	  
 	<script type="text/javascript"  
 	        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML-full,Safe,https://DOMAIN/config.js">  
 	</script>  
 	<script type="text/javascript" id="MathJax-script" async  
-	        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">  
-	</script>  
-	  
-	<script type="text/x-mathjax-config">  
-	    MathJax.Hub.Config({  
-	    extensions: ["tex2jax.js"],  
-	    jax: ["input/TeX", "output/HTML-CSS"],  
-	    tex2jax: {  
-	        inlineMath: [ ['$','$'], ["\\(","\\)"] ],  
-	        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],  
-	        processEscapes: true  
-	    },  
-	    "HTML-CSS": {  
-	        availableFonts: ["TeX"],  
-	        linebreaks: {  
-	            automatic: true
-	        }  
-	    }  
-	  });  
+	        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">  
 	</script>
 	
 	```
 	- linebreaks의 automatic: true가 inline 수식 블록을 line break해준다.
 	- version3가 인라인 수식을 안 먹어서 version2.7.5도 같이 넣어줬다.
 	- version3에서 수식 블록의 가로스크롤이 가능해졌다.
-3. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
+	- 윈도우 크기가 resize 될 때마다 rerender 할 수 있도록 설정했다. delay의 값을 100ms으로 해서 해당 delay 후 새로고침된다. delay 값을 키울 수록 더 늦게 새로고침된다.
+1. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
 	```scss
 	mjx-container {  
 	  display: block;  
