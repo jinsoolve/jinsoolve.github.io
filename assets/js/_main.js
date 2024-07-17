@@ -25,6 +25,7 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     stickySideBar();
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
   });
 
   // Follow menu drop down
@@ -133,4 +134,5 @@ $(document).ready(function() {
       $(this).append(anchor);
     }
   });
+
 });

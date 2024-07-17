@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-17-UCPC-2024-예선.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나만의 readme.md"
+                "file": "_posts/2024-07-17-UCPC-2024-예선.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "나만의 readme.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
     "_site/assets/js/mathjax-config.js",
     "assets/js/mathjax-config.js",
@@ -169,7 +170,6 @@
     "_posts/2024-06-26-algorithm-geometry.md",
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
-    "나만의 readme.md",
     "_sass/custom/custom.scss",
     "_sass/custom",
     "_site/problem solving/Atcoder-Typical-90/index.html",
