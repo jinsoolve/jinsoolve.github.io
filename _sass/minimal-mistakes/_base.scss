@@ -15,7 +15,8 @@ body {
   font-family: $global-font-family;
   /* 2022.01.19 change font weight & skew */
   line-height: 1.8;
-	font-weight: 400;
+  font-weight: 400;
+  overflow-x: hidden;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -266,6 +267,11 @@ figure {
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
   }
+  img,
+  table {
+    max-width: 100%;
+    height: auto;
+  }
 
   img {
     width: 100%;
@@ -401,4 +407,10 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+
+/* MathJax 수식 블록에 가로 스크롤 추가 */
+mjx-container {
+  overflow: auto;
 }
