@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2024-07-17
+last_modified_at: 2024-07-18
 ---
 # Posting
 
@@ -65,7 +65,6 @@ last_modified_at: 2024-07-17
 1. \_layouts/deafult.html에 `{% include mathjax_support.html %}` 넣기
 2. \_includes/mathjax_support.html에 아래 코드 넣기
 	```html
-		  
 	<script type="text/x-mathjax-config">  
 	    MathJax.Hub.Config({  
 	        extensions: ["tex2jax.js"],  
@@ -84,10 +83,19 @@ last_modified_at: 2024-07-17
 	        }  
 	    });  
 	  
+	    let initialWidth = window.innerWidth;  
 	    window.addEventListener('resize', MJrerender);  
 	    let t = -1;  
-	    let delay = 100;  
+	    let delay = 250;  
+	  
 	    function MJrerender() {  
+	      // Check if the width has actually changed  
+	      if (window.innerWidth === initialWidth) {  
+	        return;  
+	      }  
+	  
+	      initialWidth = window.innerWidth;  
+	  
 	      if (t >= 0) {  
 	        // If we are still waiting, then the user is still resizing =>  
 	        // postpone the action further!  
@@ -97,9 +105,8 @@ last_modified_at: 2024-07-17
 	        MathJax.Hub.Queue(["Rerender",MathJax.Hub]);  
 	        t = -1; // Reset the handle  
 	      }, delay);  
-	    };  
+	    }  
 	</script>  
-	  
 	  
 	<script type="text/javascript"  
 	        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML-full,Safe,https://DOMAIN/config.js">  
@@ -107,13 +114,13 @@ last_modified_at: 2024-07-17
 	<script type="text/javascript" id="MathJax-script" async  
 	        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">  
 	</script>
-	
 	```
 	- linebreaks의 automatic: true가 inline 수식 블록을 line break해준다.
 	- version3가 인라인 수식을 안 먹어서 version2.7.5도 같이 넣어줬다.
 	- version3에서 수식 블록의 가로스크롤이 가능해졌다.
 	- 윈도우 크기가 resize 될 때마다 rerender 할 수 있도록 설정했다. delay의 값을 100ms으로 해서 해당 delay 후 새로고침된다. delay 값을 키울 수록 더 늦게 새로고침된다.
-3. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
+	- 모바일 화면에서 위 아래로 스크롤 할 때 주소표시줄이나 툴바가 나타나면서 화면 위아래 크기가 resize돼서 스크롤 할 때마다 수식블록이 resize 되는 문제가 생겼다. 이를 가로화면의 너비가 변화할 때만 rerender 하는 방식으로 처리해서 해결했다.
+1. 수식 블록의 가로스크롤을 위해서는 \_base.scss 에서 mjx-container {} 를 수정해줬더니 해결됐다.
 	```scss
 	mjx-container {  
 	  display: block;  
