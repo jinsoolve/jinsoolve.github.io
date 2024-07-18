@@ -43,9 +43,9 @@ last_modified_at: 2024-07-18
 ## 폰트 바꾸기
 1. /assets/css/main.scss에서 web font를 가지고 온다. 
 2. /\_sass/minimal-mistakes/\_variables.scss 으로 이동해서  
-   /* system typefaces */  
+   /* system typefaces \*/  
    $serif: Georgia, Times, serif !default;  
-   /* 2022.01.19 font change */  
+   /* 2022.01.19 font change \*/  
    $sans-serif: "ONE-Mobile-Regular",  
 	위 sans-serif의 값을 수정한다.
 
@@ -54,7 +54,7 @@ last_modified_at: 2024-07-18
 
 ---
 # 글의 좌우 폭 너비 조정하기
-1. \_sass/_minimal-mistakes/_variables.scss을 본다
+1. \_sass_minimal-mistakes_variables.scss을 본다
 2. \$x-large: 1400px !default;  
    $max-width: $x-large !default;
 3. 위 같은 코드가 있는데 max-width를 조정해줘야 최대 너비가 변화한다.   
@@ -141,4 +141,5 @@ last_modified_at: 2024-07-18
 # 추가 사항
 - manifest가 계속 현재 경로에서 찾아서 custom.html에서 ../../을 앞에 추가해주었더니 정상 동작했다.  
 - theme가 적용이 안 돼서 찾아보니 \_base.scss의 106, 121줄을 주석처리 했더니 해결됐다.
+- Chrome 기반에서 사이드목차의 링크 색깔이 자꾸 변하는 문제가 있어서 \_navigation.scss 파일의 .toc 내용을 수정했다.
 
