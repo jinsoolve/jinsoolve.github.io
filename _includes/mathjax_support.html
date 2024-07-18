@@ -17,19 +17,17 @@
     });
 
     let initialWidth = window.innerWidth;
-    let initialHeight = window.innerHeight;
     window.addEventListener('resize', MJrerender);
     let t = -1;
     let delay = 250;
 
     function MJrerender() {
-      // Check if the viewport size has actually changed
-      if (window.innerWidth === initialWidth && window.innerHeight === initialHeight) {
+      // Check if the width has actually changed
+      if (window.innerWidth === initialWidth) {
         return;
       }
 
       initialWidth = window.innerWidth;
-      initialHeight = window.innerHeight;
 
       if (t >= 0) {
         // If we are still waiting, then the user is still resizing =>
