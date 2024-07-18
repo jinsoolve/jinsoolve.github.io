@@ -530,12 +530,12 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $text-color;
-  background-color:$background-color;
+  background-color: $background-color;
   border-radius: $border-radius;
   padding: 0.5em 0.5em 0.5em 0.5em;
 
   .nav__title {
-    /* change Right Navigation title 'On this page' color */
+    /* Right Navigation title 'On this page' color */
     color: rgb(54, 54, 54);
     font-size: $type-size-6;
     background: inherit;
@@ -548,7 +548,13 @@
   .active a {
     @include yiq-contrasted($active-color);
   }
+
+  // Visited link color
+  a:visited {
+    color: $text-color;
+  }
 }
+
 
 .toc__menu {
   margin: 0;
