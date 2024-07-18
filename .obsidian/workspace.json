@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "나만의 readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "나만의 readme.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "나만의 readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md"
+                "file": "나만의 readme.md"
               }
             }
           }
@@ -147,8 +147,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1be3f063fa9b02ed",
+  "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-06-24-강한-연결-요소.md",
     "나만의 readme.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
     "_site/assets/js/mathjax-config.js",
@@ -166,7 +167,6 @@
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
     "my-titanic-notebook_files",
     "_posts/2024-06-26-bipartite-matching.md",
-    "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
     "assets/images/posts_img/my-titanic-notebook_11_0.png",

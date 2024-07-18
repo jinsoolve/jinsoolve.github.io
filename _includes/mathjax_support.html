@@ -1,4 +1,3 @@
-
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         extensions: ["tex2jax.js"],
@@ -17,10 +16,21 @@
         }
     });
 
+    let initialWidth = window.innerWidth;
+    let initialHeight = window.innerHeight;
     window.addEventListener('resize', MJrerender);
     let t = -1;
-    let delay = 100;
+    let delay = 250;
+
     function MJrerender() {
+      // Check if the viewport size has actually changed
+      if (window.innerWidth === initialWidth && window.innerHeight === initialHeight) {
+        return;
+      }
+
+      initialWidth = window.innerWidth;
+      initialHeight = window.innerHeight;
+
       if (t >= 0) {
         // If we are still waiting, then the user is still resizing =>
         // postpone the action further!
@@ -30,9 +40,8 @@
         MathJax.Hub.Queue(["Rerender",MathJax.Hub]);
         t = -1; // Reset the handle
       }, delay);
-    };
+    }
 </script>
-
 
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML-full,Safe,https://DOMAIN/config.js">
