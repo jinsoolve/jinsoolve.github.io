@@ -147,8 +147,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "097a1b4db14101af",
+  "active": "95d6187650aac0fd",
   "lastOpenFiles": [
+    "robots.txt",
     "_site/problem solving/boj-26306/index.html",
     "_site/problem solving/boj-26306",
     "나만의 readme.md",
@@ -176,7 +177,6 @@
     "_sass/custom/custom.scss",
     "_sass/custom",
     "_site/problem solving/Atcoder-Typical-90/index.html",
-    "_site/problem solving/Atcoder-Typical-90",
     "_site/screenshot.png",
     "_site/screenshot-layouts.png",
     "templates/default.md",
