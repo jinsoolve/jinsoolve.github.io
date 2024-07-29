@@ -19,23 +19,24 @@ $masthead-link-color: #333333 !default;  // Dark gray masthead links
 $masthead-link-color-hover: #555555 !default;  // Slightly lighter gray on hover
 $navicon-link-color-hover: #444444 !default;  // Gray hover for navigation icons
 
-/* Syntax Highlighting (Base16) */
-$base00: #ffffff !default;
-$base01: #e0e0e0 !default;
-$base02: #d0d0d0 !default;
-$base03: #b0b0b0 !default;
-$base04: #000000 !default;
-$base05: #101010 !default;
-$base06: #151515 !default;
-$base07: #202020 !default;
-$base08: #ff0086 !default;
-$base09: #fd8900 !default;
-$base0a: #aba800 !default;
-$base0b: #00c918 !default;
-$base0c: #1faaaa !default;
-$base0d: #3777e6 !default;
-$base0e: #ad00a1 !default;
-$base0f: #cc6633 !default;
+/* Syntax Highlighting (Pastel Colors) */
+$base00: #f1f1f1 !default; /* 배경색 (밝은 파스텔 회색) */
+$base01: #e2e2e2 !default; /* 연한 회색 */
+$base02: #d0d0d0 !default; /* 중간 회색 */
+$base03: #b0b0b0 !default; /* 어두운 회색 */
+$base04: #4a4a4a !default; /* 기본 텍스트 색상 (어두운 회색) */
+$base05: #333333 !default; /* 기본 텍스트 색상 (약간 더 어두운 회색) */
+$base06: #555555 !default; /* 강조된 텍스트 색상 */
+$base07: #666666 !default; /* 강조된 텍스트 색상 */
+$base08: #f9e84d !default; /* 에러 색상 (파스텔 빨강) */
+$base09: #f0a500 !default; /* 경고 색상 (파스텔 오렌지) */
+$base0a: #ff6f61 !default; /* 경고 색상 (파스텔 노랑) */
+$base0b: #c1e1c1 !default; /* 문자열 색상 (파스텔 연두) */
+$base0c: #92c6e6 !default; /* 연산자 색상 (파스텔 하늘색) */
+$base0d: #88b8e8 !default; /* 함수 색상 (파스텔 파랑) */
+$base0e: #6cb2eb !default; /* 키워드 색상 (하늘색) */
+$base0f: #ffb07c !default; /* 휘발색 (파스텔 갈색) */
+
 
 /* Page Content Links */
 .page__content {
