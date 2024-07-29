@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c6d07e825cc2cc7",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나만의 readme.md"
+                "file": "_posts/2024-07-29-boj-26306.md"
               }
             }
           }
@@ -147,10 +148,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "097a1b4db14101af",
+  "active": "1be3f063fa9b02ed",
   "lastOpenFiles": [
-    "_posts/2024-06-24-강한-연결-요소.md",
+    "_site/problem solving/boj-26306/index.html",
+    "_site/problem solving/boj-26306",
     "나만의 readme.md",
+    "_posts/2024-07-29-boj-26306.md",
+    "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
     "_site/assets/js/mathjax-config.js",
     "assets/js/mathjax-config.js",
@@ -174,7 +178,6 @@
     "_sass/custom",
     "_site/problem solving/Atcoder-Typical-90/index.html",
     "_site/problem solving/Atcoder-Typical-90",
-    "_site/problem solving",
     "_site/screenshot.png",
     "_site/screenshot-layouts.png",
     "templates/default.md",
@@ -191,7 +194,6 @@
     "_posts/2024-07-03-example.md",
     "_posts/2024-07-05.md",
     "_posts/무제 파일 2.md",
-    "_posts/prefix-2024-07-05.md",
-    "_site/나만의 readme.md"
+    "_posts/prefix-2024-07-05.md"
   ]
 }
