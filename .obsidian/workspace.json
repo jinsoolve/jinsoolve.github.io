@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c6d07e825cc2cc7",
@@ -148,7 +147,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1be3f063fa9b02ed",
+  "active": "097a1b4db14101af",
   "lastOpenFiles": [
     "_site/problem solving/boj-26306/index.html",
     "_site/problem solving/boj-26306",
