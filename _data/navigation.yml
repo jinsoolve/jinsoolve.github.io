@@ -3,6 +3,9 @@ main:
   - title: "Home"
     url: https://jinsoolve.github.io/
 
+  - title: "Tag"
+    url: /tag/
+
   - title: "About"
     url: /about/
 
