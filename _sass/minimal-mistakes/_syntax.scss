@@ -21,6 +21,12 @@ figure.highlight {
   }
 }
 
+.highlight .lineno {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 .highlight table {
   margin-bottom: 0;
   font-size: 1em;
