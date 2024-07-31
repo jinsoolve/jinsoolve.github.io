@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나만의 readme.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나만의 readme.md"
+                "file": "_posts/2024-07-31-Edu-CF168-E.md"
               }
             }
           }
@@ -149,13 +149,16 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_site/Edu-CF168-E/index.html",
+    "_site/Edu-CF168-E",
+    "나만의 readme.md",
+    "_posts/2024-07-31-Edu-CF168-E.md",
     "_posts/2024-07-29-boj-26306.md",
     "_site/naverbe93e8c2a9a64ec7f45a0913d0c603d6.html",
     "naverbe93e8c2a9a64ec7f45a0913d0c603d6.html",
     "robots.txt",
     "_site/problem solving/boj-26306/index.html",
     "_site/problem solving/boj-26306",
-    "나만의 readme.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
     "_site/assets/js/mathjax-config.js",
@@ -171,7 +174,6 @@
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
-    "my-titanic-notebook_files",
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
@@ -191,7 +193,6 @@
     "_posts/2024-07-06-kaggle-titanic.html.md",
     "_posts/2024-07-03-example.md",
     "_posts/2024-07-05.md",
-    "_posts/무제 파일 2.md",
-    "_posts/prefix-2024-07-05.md"
+    "_posts/무제 파일 2.md"
   ]
 }
