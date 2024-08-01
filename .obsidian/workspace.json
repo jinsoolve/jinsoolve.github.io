@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-01-cs224n-lecture-1.md"
+                "file": "_posts/2024-07-31-Edu-CF168-E.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-08-01-cs224n-lecture-1.md",
     "_data/navigation.yml~",
     "_site/categories/machine-learning/lecture/cs224n/index.html",
     "_site/categories/machine-learning/lecture/cs224n",
@@ -159,13 +160,10 @@
     "_site/cs224n-lecture-1",
     "_site/ml-paper/cs224n-lecture-1/index.html",
     "_site/ml-paper/cs224n-lecture-1",
-    "_site/ml-paper",
     "_posts/2024-07-31-Edu-CF168-E.md",
-    "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-asdf.md",
     "_posts/2024-08-02-title123.md",
     "templates/default.md",
-    "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-.md",
     "_posts/024-08-02-.md",
     "_posts/2024-07-31-tmp-1.md",
