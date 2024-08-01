@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E 1.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E 1.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E 1.md",
+                "file": "_posts/2024-07-29-boj-26306.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E 1.md"
+                "file": "_posts/2024-07-29-boj-26306.md"
               }
             }
           }
@@ -147,12 +147,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "097a1b4db14101af",
+  "active": "1be3f063fa9b02ed",
   "lastOpenFiles": [
+    "_posts/2024-07-31-Edu-CF168-E 1.md",
     "_site/problem solving/Edu-CF168-E-1/index.html",
     "_site/problem solving/Edu-CF168-E-1",
     "_posts/2024-07-31-Edu-CF168-E.md",
-    "_posts/2024-07-31-Edu-CF168-E 1.md",
     "_posts/2024-08-02-cs224n-1.md",
     "_posts/2024-08-02-cs224n-lecture-1.md",
     "_site/diary/cs224n-1/index.html",
@@ -163,7 +163,6 @@
     "_site/cs224n/cs224n-1",
     "_site/cs224n",
     "_site/ml-lecture-cs224n/cs224n-1/index.html",
-    "_site/ml-lecture-cs224n/cs224n-1",
     "_pages/categories/category-machine-learning-lecture-cs224n.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
