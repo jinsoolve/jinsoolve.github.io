@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-31-Edusdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-31-Edusdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-31-Edusdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-31-Edusdf.md"
+                "file": "_posts/2024-08-02-title123.md"
               }
             }
           }
@@ -149,10 +149,19 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_posts/2024-08-02-cs224n-1.md",
-    "_posts/2024-07-31-Edusdf.md",
-    "_posts/2024-07-29-boj-26306.md",
+    "_site/algorithm theory/title123/index.html",
+    "_site/algorithm theory/title123",
+    "_site/algorithm theory",
+    "_site/title123/index.html",
+    "_site/title123",
     "_posts/2024-07-31-Edu-CF168-E.md",
+    "_posts/2024-08-02-title123.md",
+    "_posts/2024-07-31-tmp-1.md",
+    "_posts/2024-07-29-boj-26306.md",
+    "_site/problem solving/tmp-1/index.html",
+    "_site/problem solving/tmp-1",
+    "_posts/2024-08-02-cs224n-lecture-1.md",
+    "_posts/2024-08-02-cs224n-1.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
     "_posts/2024-07-17-Kaggle-Curriculum.md",
     "_posts/2024-07-06-kaggle-titanic.md",
@@ -165,13 +174,6 @@
     "_site/problem solving/Edusdf",
     "_site/problem solving/Edu-CF168-E-1/index.html",
     "_site/problem solving/Edu-CF168-E-1",
-    "_posts/2024-08-02-cs224n-lecture-1.md",
-    "_site/diary/cs224n-1/index.html",
-    "_site/diary/cs224n-1",
-    "_site/cs224n-1/index.html",
-    "_site/cs224n-1",
-    "_site/cs224n/cs224n-1/index.html",
-    "_site/cs224n/cs224n-1",
     "_pages/categories/category-machine-learning-lecture-cs224n.md",
     "_posts/category-algorithm-theory.md",
     "_site/_pages/categories/category-algorithm-theory.md",
@@ -191,7 +193,6 @@
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
     "_site/screenshot.png",
     "_site/screenshot-layouts.png",
-    "templates/default.md",
-    "_posts/2024-07-15-sdfsf.md"
+    "templates/default.md"
   ]
 }
