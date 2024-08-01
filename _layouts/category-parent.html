@@ -53,11 +53,11 @@ layout: archive
 {% endfor %}
 
 <!-- 배열의 내용을 출력해보기 -->
-<!--<ul>-->
-<!--    {% for taxonomy in matched_taxonomies %}-->
-<!--    <li>{{ taxonomy }}</li>-->
-<!--    {% endfor %}-->
-<!--</ul>-->
+<ul>
+    {% for taxonomy in matched_taxonomies %}
+    <li>{{ taxonomy }}</li>
+    {% endfor %}
+</ul>
 
 <!-- children categories을 찾아서 배열에 넣기 -->
 {% assign matching_categories = "" | split: "" %}  <!-- 빈 배열 생성 -->
