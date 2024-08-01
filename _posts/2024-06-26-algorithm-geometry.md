@@ -3,13 +3,12 @@ title: 기하학
 excerpt: 기하학
 categories:
   - Algorithm
-tags:
-  - 기하학
+tags: []
 permalink: /algorithm/geometry/
 toc: true
 toc_sticky: true
 date: 2024-06-24
-last_modified_at: 2024-06-24
+last_modified_at: 2024-08-01
 ---
 
 # Convex Hull

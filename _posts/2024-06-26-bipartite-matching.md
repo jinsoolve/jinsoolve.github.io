@@ -3,13 +3,12 @@ title: 이분 매칭
 excerpt: 이분 매칭
 categories:
   - Algorithm
-tags:
-  - 이분-매칭
+tags: []
 permalink: /algorithm/bipartite/
 toc: true
 toc_sticky: true
 date: 2024-06-26
-last_modified_at: 2024-06-26
+last_modified_at: 2024-08-01
 ---
 # 이분매칭이란?
 ![](/assets/images/posts_img/Pasted%20image%2020240703143547.png)
