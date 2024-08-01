@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-07-31-Edu-CF168-E.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-02-title123.md"
+                "file": "_posts/2024-07-31-Edu-CF168-E.md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "097a1b4db14101af",
+  "active": "1be3f063fa9b02ed",
   "lastOpenFiles": [
-    "_posts/2024-07-31-Edu-CF168-E.md",
+    "_site/problem solving/Edu-CF168-E/index.html",
+    "_site/problem solving/Edu-CF168-E",
     "_posts/2024-08-02-title123.md",
+    "_posts/2024-07-31-Edu-CF168-E.md",
     "_site/algorithm theory/title123/index.html",
     "_site/algorithm theory/title123",
     "_site/algorithm theory",
@@ -172,7 +174,6 @@
     "_posts/2024-06-24-강한-연결-요소.md",
     "_site/problem solving/Edusdf/index.html",
     "_site/problem solving/Edusdf",
-    "_site/problem solving/Edu-CF168-E-1/index.html",
     "_pages/categories/category-machine-learning-lecture-cs224n.md",
     "_posts/category-algorithm-theory.md",
     "_site/_pages/categories/category-algorithm-theory.md",
