@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-02-title123.md",
+                "file": "_posts/2024-08-01-cs224n-lecture-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-02-title123.md"
+                "file": "_posts/2024-08-01-cs224n-lecture-1.md"
               }
             }
           }
@@ -149,7 +149,16 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_site/cs224n-lecture-1/index.html",
+    "_site/cs224n-lecture-1",
+    "_posts/2024-07-31-Edu-CF168-E.md",
+    "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-asdf.md",
+    "_posts/2024-08-02-title123.md",
+    "templates/default.md",
+    "_posts/2024-08-01-cs224n-lecture-1.md",
+    "_posts/2024-08-02-.md",
+    "_posts/024-08-02-.md",
     "_site/ml-lecture-cs224n/asdf/index.html",
     "_site/ml-lecture-cs224n/asdf",
     "_site/ml-lecture-cs224n",
@@ -159,9 +168,6 @@
     "_site/ml-/asdf",
     "_site/ml-",
     "_site/page2/index.html",
-    "_site/page2",
-    "_posts/2024-08-02-title123.md",
-    "_posts/2024-07-31-Edu-CF168-E.md",
     "_posts/2024-07-31-tmp-1.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-08-02-cs224n-lecture-1.md",
@@ -179,11 +185,6 @@
     "_site/_pages/categories/category-algorithm-theory.md",
     "_pages/categories/category-algorithm-theory.md",
     "_pages/categories/category-machine-learning-paper.md",
-    "_pages/categories/category-machine-learning-lecture.md",
-    "_pages/categories/category-machine-learning-kaggle.md",
-    "_pages/categories/category-algorithm-problem-solving.md",
-    "나만의 readme.md",
-    "_posts/my-titanic-notebook.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
