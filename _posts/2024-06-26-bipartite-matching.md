@@ -2,7 +2,7 @@
 title: 이분 매칭
 excerpt: 이분 매칭
 categories:
-  - Algorithm
+  - Algorithm Theory
 tags: []
 permalink: /algorithm/bipartite/
 toc: true

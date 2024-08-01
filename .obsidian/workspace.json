@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-제1강.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-제1강.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-제1강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md"
+                "file": "_posts/2024-08-02-제1강.md"
               }
             }
           }
@@ -149,9 +149,22 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_site/ml-lecture-cs224n/제1강/index.html",
+    "_site/ml-lecture-cs224n/제1강",
+    "_site/ml-lecture-cs224n",
+    "_site/제1강/index.html",
+    "_site/제1강",
+    "_site/cs224n/제1강/index.html",
+    "_site/cs224n/제1강",
+    "_site/cs224n",
+    "_site/categories/machine-learning/lecture/cs224n/index.html",
+    "_site/categories/machine-learning/lecture/cs224n",
+    "_pages/categories/category-machine-learning-lecture-cs224n.md",
+    "_layouts/find_category.html",
+    "_posts/2024-07-31-Edu-CF168-E.md",
+    "_posts/2024-08-02-제1강.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
-    "_posts/2024-07-31-Edu-CF168-E.md",
     "_posts/2024-07-17-Kaggle-Curriculum.md",
     "_posts/2024-07-11-Atcoder-Typical-90.md",
     "_posts/2024-07-06-kaggle-titanic.md",
@@ -159,17 +172,14 @@
     "_posts/2024-06-26-bipartite-matching.md",
     "_posts/2024-06-26-algorithm-geometry.md",
     "_posts/2024-06-24-강한-연결-요소.md",
-    "_site/Edu-CF168-E/index.html",
-    "_site/Edu-CF168-E",
+    "_posts/category-algorithm-theory.md",
+    "_site/_pages/categories/category-algorithm-theory.md",
+    "_pages/categories/category-algorithm-theory.md",
+    "_pages/categories/category-machine-learning-paper.md",
+    "_pages/categories/category-machine-learning-lecture.md",
+    "_pages/categories/category-machine-learning-kaggle.md",
+    "_pages/categories/category-algorithm-problem-solving.md",
     "나만의 readme.md",
-    "_site/naverbe93e8c2a9a64ec7f45a0913d0c603d6.html",
-    "naverbe93e8c2a9a64ec7f45a0913d0c603d6.html",
-    "robots.txt",
-    "_site/problem solving/boj-26306/index.html",
-    "_site/problem solving/boj-26306",
-    "_site/assets/js/mathjax-config.js",
-    "assets/js/mathjax-config.js",
-    "googlebfc191ceda519cfa.html",
     "_posts/my-titanic-notebook.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
@@ -183,15 +193,6 @@
     "templates/default.md",
     "_posts/2024-07-15-sdfsf.md",
     "_posts/2024-07-15-무제 파일.md",
-    "_posts/무제 파일 1.md",
-    "_pages/무제 파일.md",
-    "_posts/2024-07-12-.md",
-    "_pages/categories/category-problem-solving.md",
-    "_posts/2024-07-06-sdfsf.md",
-    "_posts/2024-07-05-2024년-여름-방학-계획.md",
-    "_posts/2024-07-06-kaggle-titanic.html.md",
-    "_posts/2024-07-03-example.md",
-    "_posts/2024-07-05.md",
-    "_posts/무제 파일 2.md"
+    "_posts/무제 파일 1.md"
   ]
 }

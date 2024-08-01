@@ -2,7 +2,7 @@
 title: 기하학
 excerpt: 기하학
 categories:
-  - Algorithm
+  - Algorithm Theory
 tags: []
 permalink: /algorithm/geometry/
 toc: true

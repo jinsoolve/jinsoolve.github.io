@@ -2,13 +2,13 @@
 title: 
 excerpt: Kaggle Curriculum by 이유한
 categories:
-  - Machine Learning
+  - Kaggle
 tags: 
 permalink: 
 toc: true
 toc_sticky: true
 date: 2024-07-17
-last_modified_at: 2024-07-17
+last_modified_at: 2024-08-02
 ---
 [이유한님 캐글 커리큘럼](https://kaggle-kr.tistory.com/32)을 공부한 노트북들이다.  
 제공받은 노트북들 기반으로 공부하면서 적은 노트북들이다.

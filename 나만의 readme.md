@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2024-07-31
+last_modified_at: 2024-08-01
 ---
 # Posting
 
@@ -136,6 +136,9 @@ last_modified_at: 2024-07-31
 1. \_masthead.scss에서 hidden 속성을 만들었다.
 2. \_includes/head/custom.html에 script 코드를 넣었다.
 
+---
+# 사이드바 하위 목록
+1. \_includes > nav_list를 수정한다.
 
 ---
 # 추가 사항

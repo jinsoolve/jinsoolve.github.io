@@ -1,9 +1,9 @@
 ---
 title: "Machine Learning"
-layout: category
+layout: category-parent
 permalink: /categories/machine-learning/
 author_profile: true
-taxonomy: Machine Learning
+taxonomy: Machine-Learning
 sidebar:
   nav: "categories"
 ---

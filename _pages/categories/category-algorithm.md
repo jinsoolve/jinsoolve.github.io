@@ -1,6 +1,6 @@
 ---
 title: "Algorithm"
-layout: category
+layout: category-parent
 permalink: /categories/algorithm/
 author_profile: true
 taxonomy: Algorithm

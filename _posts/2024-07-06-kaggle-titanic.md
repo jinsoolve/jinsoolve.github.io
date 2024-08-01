@@ -2,13 +2,13 @@
 title: 
 excerpt: kaggle titanic notebook
 categories:
-  - Machine Learning
+  - Kaggle
 tags: 
 permalink: 
 toc: true
 toc_sticky: true
 date: 2024-07-06
-last_modified_at: 2024-07-17
+last_modified_at: 2024-08-01
 ---
 
 # 서론

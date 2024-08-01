@@ -28,9 +28,22 @@ categories:
 
   - title: "Algorithm"
     url: /categories/algorithm/
-
-  - title: "Problem Solving"
-    url: /categories/problem-solving/
+    children:
+      - title: "Algorithm Theory"
+        url: /categories/algorithm/theory/
+      - title: "Problem Solving"
+        url: /categories/algorithm/problem-solving/
+        url: /categories/algorithm/problem-solving/
 
   - title: "Machine Learning"
     url: /categories/machine-learning/
+    children:
+      - title: "Kaggle"
+        url: /categories/machine-learning/kaggle/
+      - title: "Lecture"
+        url: /categories/machine-learning/lecture/
+        children:
+          - title: "CS224n"
+            url: /categories/machine-learning/lecture/cs224n/
+      - title: "Paper"
+        url: /categories/machine-learning/paper/
