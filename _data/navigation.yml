@@ -3,8 +3,11 @@ main:
   - title: "Home"
     url: https://jinsoolve.github.io/
 
+  - title: "Categories"
+    url: /categories/
+
   - title: "Tag"
-    url: /tag/
+    url: /tags/
 
   - title: "About"
     url: /about/
@@ -15,8 +18,7 @@ main:
   # - title: "Projects"
   #   url: /projects/
 
-  # - title: "Categories"
-  #   url: /categories/
+
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
