@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-02-asdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-02-asdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-02-asdf.md",
+                "file": "_posts/2024-08-02-title123.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-02-asdf.md"
+                "file": "_posts/2024-08-02-title123.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
+    "_posts/2024-08-02-asdf.md",
     "_site/ml-lecture-cs224n/asdf/index.html",
     "_site/ml-lecture-cs224n/asdf",
     "_site/ml-lecture-cs224n",
@@ -160,9 +161,7 @@
     "_site/page2/index.html",
     "_site/page2",
     "_posts/2024-08-02-title123.md",
-    "_posts/2024-08-02-asdf.md",
     "_posts/2024-07-31-Edu-CF168-E.md",
-    "_site/problem solving/title123/index.html",
     "_posts/2024-07-31-tmp-1.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-08-02-cs224n-lecture-1.md",
