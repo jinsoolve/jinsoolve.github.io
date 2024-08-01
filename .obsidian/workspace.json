@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-asdf.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-asdf.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md",
+                "file": "_posts/2024-08-02-asdf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-31-Edu-CF168-E.md"
+                "file": "_posts/2024-08-02-asdf.md"
               }
             }
           }
@@ -149,21 +149,22 @@
   },
   "active": "097a1b4db14101af",
   "lastOpenFiles": [
-    "_site/problem solving/title123/index.html",
-    "_site/problem solving/title123",
+    "_site/ml-lecture-cs224n/asdf/index.html",
+    "_site/ml-lecture-cs224n/asdf",
+    "_site/ml-lecture-cs224n",
+    "_site/asdf/index.html",
+    "_site/asdf",
+    "_site/ml-/asdf/index.html",
+    "_site/ml-/asdf",
+    "_site/ml-",
+    "_site/page2/index.html",
+    "_site/page2",
     "_posts/2024-08-02-title123.md",
+    "_posts/2024-08-02-asdf.md",
     "_posts/2024-07-31-Edu-CF168-E.md",
-    "_site/problem solving/Edu-CF168-E/index.html",
-    "_site/problem solving/Edu-CF168-E",
-    "_site/algorithm theory/title123/index.html",
-    "_site/algorithm theory/title123",
-    "_site/algorithm theory",
-    "_site/title123/index.html",
-    "_site/title123",
+    "_site/problem solving/title123/index.html",
     "_posts/2024-07-31-tmp-1.md",
     "_posts/2024-07-29-boj-26306.md",
-    "_site/problem solving/tmp-1/index.html",
-    "_site/problem solving/tmp-1",
     "_posts/2024-08-02-cs224n-lecture-1.md",
     "_posts/2024-08-02-cs224n-1.md",
     "_posts/2024-07-17-UCPC-2024-예선.md",
@@ -192,7 +193,6 @@
     "assets/images/posts_img/my-titanic-notebook_19_0.png",
     "assets/images/posts_img/my-titanic-notebook_11_0.png",
     "_site/screenshot.png",
-    "_site/screenshot-layouts.png",
-    "templates/default.md"
+    "_site/screenshot-layouts.png"
   ]
 }
