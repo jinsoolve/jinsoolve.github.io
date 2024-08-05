@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f024f6fc9527ab32",
+        "id": "bdda67b4f1cddcd0",
         "type": "tabs",
         "children": [
           {
-            "id": "097a1b4db14101af",
+            "id": "930826660af67dc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-05-boj-1154-팀-편성.md",
+                "file": "_posts/2024-08-05-boj-1585.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-boj-1154-팀-편성.md",
+                "file": "_posts/2024-08-05-boj-1585.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-05-boj-1154-팀-편성.md",
+                "file": "_posts/2024-08-05-boj-1585.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-boj-1154-팀-편성.md"
+                "file": "_posts/2024-08-05-boj-1585.md"
               }
             }
           }
@@ -147,10 +147,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "097a1b4db14101af",
+  "active": "930826660af67dc4",
   "lastOpenFiles": [
-    "_posts/2024-08-01-cs224n-lecture-1.md",
+    "_site/boj-1585/index.html",
+    "_site/boj-1585",
+    "_posts/2024-08-05-boj-1585.md",
     "_posts/2024-08-05-boj-1154-팀-편성.md",
+    "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-test.md",
     "_site/problem solving/boj-1154-팀-편성/index.html",
     "_site/problem solving/boj-1154-팀-편성",
@@ -164,7 +167,6 @@
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-07-31-Edu-CF168-E.md",
     "_data/navigation.yml~",
-    "_site/categories/machine-learning/lecture/cs224n/index.html",
     "_posts/2024-08-02-asdf.md",
     "_posts/2024-08-02-title123.md",
     "_posts/024-08-02-.md",
@@ -183,7 +185,6 @@
     "_posts/category-algorithm-theory.md",
     "_site/_pages/categories/category-algorithm-theory.md",
     "_pages/categories/category-algorithm-theory.md",
-    "_pages/categories/category-machine-learning-paper.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
