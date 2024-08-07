@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-05-boj-1585.md",
+                "file": "_posts/2024-08-07-boj-25323.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-boj-1585.md",
+                "file": "_posts/2024-08-07-boj-25323.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-05-boj-1585.md",
+                "file": "_posts/2024-08-07-boj-25323.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-boj-1585.md"
+                "file": "_posts/2024-08-07-boj-25323.md"
               }
             }
           }
@@ -149,24 +149,26 @@
   },
   "active": "930826660af67dc4",
   "lastOpenFiles": [
-    "_site/boj-1585/index.html",
-    "_site/boj-1585",
+    "_site/problem solving/boj-25323/index.html",
+    "_site/problem solving/boj-25323",
+    "_site/problem solving/algorithm theory/boj-25323/index.html",
+    "_site/problem solving/algorithm theory/boj-25323",
+    "_site/problem solving/algorithm theory",
+    "_site/boj-25323/index.html",
+    "_site/boj-25323",
     "_posts/2024-08-05-boj-1585.md",
+    "_posts/2024-08-07-boj-25323.md",
+    "_posts/2024-08-07-내가-세상을-안다고-생각할-때.md",
+    "_site/diary/내가-세상을-안다고-생각할-때/index.html",
+    "_site/diary/내가-세상을-안다고-생각할-때",
+    "_site/내가-세상을-안다고-생각할-때/index.html",
+    "_site/내가-세상을-안다고-생각할-때",
     "_posts/2024-08-05-boj-1154-팀-편성.md",
     "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-test.md",
-    "_site/problem solving/boj-1154-팀-편성/index.html",
-    "_site/problem solving/boj-1154-팀-편성",
-    "_site/boj-1154-팀-편성/index.html",
-    "_site/boj-1154-팀-편성",
-    "_site/test/index.html",
-    "_site/test",
-    "_site/page2/index.html",
-    "_site/page2",
     "templates/default.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-07-31-Edu-CF168-E.md",
-    "_data/navigation.yml~",
     "_posts/2024-08-02-asdf.md",
     "_posts/2024-08-02-title123.md",
     "_posts/024-08-02-.md",
@@ -183,8 +185,6 @@
     "_posts/2024-06-24-강한-연결-요소.md",
     "_pages/categories/category-machine-learning-lecture-cs224n.md",
     "_posts/category-algorithm-theory.md",
-    "_site/_pages/categories/category-algorithm-theory.md",
-    "_pages/categories/category-algorithm-theory.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
