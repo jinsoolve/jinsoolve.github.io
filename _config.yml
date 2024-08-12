@@ -271,7 +271,7 @@ jekyll-archives:
    category: archive-taxonomy
    tag: archive-taxonomy
  permalinks:
-   category: /categories/auto/:name/
+   category: /categories/archive/:name/
    tag: /tags/:name/
 
 # HTML Compression
