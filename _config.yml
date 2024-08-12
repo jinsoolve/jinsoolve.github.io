@@ -246,6 +246,14 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /\
 
+
+# Archives
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
+
+
 # category broken link : temporary commented out
 category_archive:
   type: liquid
