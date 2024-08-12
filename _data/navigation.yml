@@ -30,9 +30,8 @@ categories:
     url: /categories/algorithm/
     children:
       - title: "Algorithm Theory"
-        url: /categories/algorithm/theory/
+        url: /categories/algorithm/algorithm-theory/
       - title: "Problem Solving"
-        url: /categories/algorithm/problem-solving/
         url: /categories/algorithm/problem-solving/
 
   - title: "Machine Learning"

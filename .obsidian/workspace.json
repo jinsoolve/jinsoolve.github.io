@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-12-boj-20052.md",
+                "file": "_posts/2024-06-24-강한-연결-요소.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-12-boj-20052.md",
+                "file": "_posts/2024-06-24-강한-연결-요소.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-12-boj-20052.md",
+                "file": "_posts/2024-06-24-강한-연결-요소.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-12-boj-20052.md"
+                "file": "_posts/2024-06-24-강한-연결-요소.md"
               }
             }
           }
@@ -149,19 +149,19 @@
   },
   "active": "930826660af67dc4",
   "lastOpenFiles": [
-    "_site/2024/08/12/index.html",
-    "_site/2024/08/07/index.html",
-    "_site/2024/08/05/index.html",
-    "_site/2024/08/01/index.html",
-    "_site/2024/07/31/index.html",
-    "_site/2024/07/29/index.html",
-    "_site/2024/07/17/index.html",
-    "_site/2024/07/11/index.html",
-    "_site/2024/07/06/index.html",
-    "_site/2024/06/26/index.html",
-    "_site/2024/06/24/index.html",
-    "_posts/2024-08-07-boj-25323.md",
+    "_site/categories/ml-lecture/index.html",
+    "_site/categories/ml-lecture",
+    "_site/categories/machine-learning-lecture/index.html",
+    "_site/categories/machine-learning-lecture",
+    "_site/categories/kaggle/index.html",
+    "_site/categories/kaggle",
+    "_site/categories/problem-solving/index.html",
+    "_site/categories/problem-solving",
+    "_site/categories/algorithm-theory/index.html",
+    "_site/categories/algorithm-theory",
+    "_site/categorie/algorithm-algorithm-theory",
     "_posts/2024-08-12-boj-20052.md",
+    "_posts/2024-08-07-boj-25323.md",
     "_posts/2024-08-05-boj-1585.md",
     "_posts/2024-08-07-내가-세상을-안다고-생각할-때.md",
     "_posts/2024-08-05-boj-1154-팀-편성.md",
