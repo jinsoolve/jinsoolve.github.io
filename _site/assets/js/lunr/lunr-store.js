@@ -90,7 +90,7 @@ var store = [{
         "teaser": null
       },{
         "title": "백준 15560 - 구간 합 최대? 1",
-        "excerpt":"백준 15560 - 구간 합 최대? 1 풀이 수열 K의 모든 값들을 $K[i] = U*K[i] + V$로 변환한다. 1번 쿼리의 경우, A~B 동안 이동하면서 변환시킨 K 수열에 대한 누적합이 최대가 되도록 만든다. 즉, sum &lt; 0인 경우 굳이 다음 것에 누적시켜줄 필요 없이 sum = 0으로 만들어준다. 최종 결과에서 $V(j-i+1)$이...","categories": ["Problem Solving"],
+        "excerpt":"백준 15560 - 구간 합 최대? 1 풀이 수열 K의 모든 값들을 $K[i] = U*K[i] + V$로 변환한다. 1번 쿼리의 경우, A~B 동안 이동하면서 변환시킨 K 수열에 대한 누적합이 최대가 되도록 만든다. 즉, sum &lt; 0인 경우 굳이 다음 것에 누적시켜줄 필요 없이 sum = 0으로 만들어준다. 최종 결과에서 $V...","categories": ["Problem Solving"],
         "tags": ["수학"],
         "url": "/problem%20solving/boj-15560/",
         "teaser": null
