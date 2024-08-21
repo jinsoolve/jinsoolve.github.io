@@ -1,0 +1,1182 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <style> 
+      ::-webkit-scrollbar{ 
+        width: 10px;
+        height: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        width: 0px;
+        background-color: rgba(224, 224, 224, 0.2);
+        /* border-radius: 5px; */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background-color: rgba(220, 219, 218, 0.6);
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        width: 10px;
+        height: 20px;
+        /* background-color: rgba(190, 190, 190, 0.2); */
+        background-color: rgba(193, 192, 191, 0.7);
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-track:hover {
+        width: 10px;
+        /* background-color: rgba(150, 150, 150, 0.1); */
+        background-color: rgba(224, 224, 224, 0.5);
+        border-radius: 5px;
+        /* background: transparent; */
+        /* border-radius: 10px; */
+      }
+
+      ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+          width:0px;
+          height: 0px;
+          /* background-color: rgb(14, 221, 24); */
+          /* border-radius: 50%; */
+      }
+    </style>
+    
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Lecture | jinsoolve</title>
+<meta name="description" content="Jinsoolve Blog">
+
+
+  <meta name="author" content="jinsoolve">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Jinsoolve Blog">
+<meta property="og:title" content="Lecture">
+<meta property="og:url" content="http://localhost:4000/categories/machine-learning/lecture/">
+
+
+  <meta property="og:description" content="Jinsoolve Blog">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/categories/machine-learning/lecture/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "jinsoolve",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jinsoolve Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+
+<!--자꾸 현재 post의 위치에서부터 찾아서 에러가 났다. 그래서 뒤로 보내줬다.-->
+<link rel="manifest" href="../../assets/images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Clipboard.js 라이브러리 추가 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+<!-- 스크롤 시 header 숨기고 나타내기 -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = document.querySelector('.masthead').offsetHeight;
+
+        window.addEventListener('scroll', function() {
+            var st = window.scrollY;
+
+            // Make sure they scroll more than delta
+            if (Math.abs(lastScrollTop - st) <= delta)
+                return;
+
+            // If current position > last position, scroll down
+            if (st > lastScrollTop && st > navbarHeight) {
+                // Scroll Down
+                document.querySelector('.masthead').classList.add('is-hidden');
+            } else {
+                // Scroll Up
+                document.querySelector('.masthead').classList.remove('is-hidden');
+            }
+
+            // Show masthead if near the top of the page
+            if (st < navbarHeight) {
+                document.querySelector('.masthead').classList.remove('is-hidden');
+            }
+
+            lastScrollTop = st;
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- end custom head snippets -->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+        },
+
+        "HTML-CSS": {
+            availableFonts: ["TeX"],
+            linebreaks: {
+                automatic: true
+            }
+        }
+    });
+
+    let initialWidth = window.innerWidth;
+    window.addEventListener('resize', MJrerender);
+    let t = -1;
+    let delay = 250;
+
+    function MJrerender() {
+      // Check if the width has actually changed
+      if (window.innerWidth === initialWidth) {
+        return;
+      }
+
+      initialWidth = window.innerWidth;
+
+      if (t >= 0) {
+        // If we are still waiting, then the user is still resizing =>
+        // postpone the action further!
+        window.clearTimeout(t);
+      }
+      t = window.setTimeout(function() {
+        MathJax.Hub.Queue(["Rerender",MathJax.Hub]);
+        t = -1; // Reset the handle
+      }, delay);
+    }
+</script>
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML-full,Safe,https://DOMAIN/config.js">
+</script>
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jinsoolve.github.io/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jinsoolve.github.io/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jinsoolve.github.io/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://jinsoolve.github.io/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://jinsoolve.github.io/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body class="layout--category-parent">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/meee.svg" alt="Jinsoolve Blog"></a>
+        
+        <a class="site-title" href="/">
+          Jinsoolve Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tag</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/jinsoolve">GitHub</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/meee.png" alt="jinsoolve" itemprop="image">
+      
+    </div>
+  
+
+  <!-- 2022.02.17 author content hidden -->
+  <!-- <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">jinsoolve</h3>
+    
+    
+  </div> -->
+
+  <div class="author__urls-wrapper">
+    <!-- <button class="btn btn--inverse">Follow</button> -->
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seoul, Korea</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:jinsoolve@gmail.com">
+            <meta itemprop="email" content="jinsoolve@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    <!-- <li>
+      <span class="nav__total">🌴 Total Posts: 14</span>
+    </li> -->
+    
+    
+      <li>
+        
+              <a href="/categories/diary/"><span class="nav__sub-title">Diary</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+              <a href="/categories/algorithm/"><span class="nav__sub-title">Algorithm</span></a>
+        
+
+        
+        <ul>
+          
+            <!-- sub-title -->
+            <li>
+              
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/categories/algorithm/algorithm-theory/">
+                  Algorithm Theory
+                </a>
+
+                
+              </div>
+
+              
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          
+            <!-- sub-title -->
+            <li>
+              
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/categories/algorithm/problem-solving/">
+                  Problem Solving
+                </a>
+
+                
+              </div>
+
+              
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+              <a href="/categories/machine-learning/"><span class="nav__sub-title">Machine Learning</span></a>
+        
+
+        
+        <ul>
+          
+            <!-- sub-title -->
+            <li>
+              
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/categories/machine-learning/kaggle/">
+                  Kaggle
+                </a>
+
+                
+              </div>
+
+              
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          
+            <!-- sub-title -->
+            <li>
+              
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/categories/machine-learning/lecture/" class="active">
+                  Lecture
+                </a>
+
+                
+                  <a href="#" class="toggle-link" onclick="toggleContent(event, 'Lecture', this)" style="margin-left: auto; margin-right: auto;">
+                    <span class="toggle-icon" aria-hidden="true">+</span> <!-- 기본 아이콘 (펼쳐지지 않았을 때) -->
+                  </a>
+                
+              </div>
+
+              
+                <div id="lecture" class="toggle-content" style="display: none;">
+                  <ul>
+                    
+                      <li>
+                        <a href="/categories/machine-learning/lecture/cs224n/">
+                          CS224n
+                          
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          
+            <!-- sub-title -->
+            <li>
+              
+
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <a href="/categories/machine-learning/paper/">
+                  Paper
+                </a>
+
+                
+              </div>
+
+              
+
+              <style>
+                .toggle-content {
+                  transition: all 10.3s ease; /* 부드러운 전환 효과 */
+                }
+                .toggle-link {
+                  display: flex; /* Flexbox 사용 */
+                  align-items: center; /* 수직 중앙 정렬 */
+                  text-decoration: none; /* 링크의 기본 밑줄 제거 */
+                  color: inherit; /* 텍스트 색상 상속 */
+                  cursor: pointer; /* 커서 포인터로 변경 */
+                }
+
+                .toggle-icon {
+                  font-weight: bold; /* 아이콘 강조 */
+                  line-height: 1; /* 라인 높이 조정 */
+                }
+              </style>
+
+              <script>
+                function toggleContent(event, title, link) {
+                  event.preventDefault();  // 기본 링크 클릭 동작 방지
+                  var content = document.getElementById(title.replace(/\s+/g, '-').toLowerCase()); // ID로 콘텐츠 찾기
+
+                  // 내용 토글
+                  if (content.style.display === "none") {
+                    content.style.display = "block"; // 보이기
+                    link.querySelector('.toggle-icon').textContent = "-"; // 펼쳤을 때 아이콘 변경
+                  } else {
+                    content.style.display = "none"; // 숨기기
+                    link.querySelector('.toggle-icon').textContent = "+"; // 펼쳐지지 않았을 때 아이콘 변경
+                  }
+                }
+              </script>
+            </li>
+
+
+
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+    <h1 id="page-title" class="page__title">Lecture</h1>
+    
+    
+
+
+
+
+
+  <!-- 빈 배열 초기화 -->
+
+
+
+
+
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+
+
+  <!-- 배열에 페이지 추가 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 배열의 내용을 출력해보기 -->
+<!--<ul>-->
+<!--    -->
+<!--    <li>{"title"=>"Problem Solving", "layout"=>"category", "permalink"=>"/categories/algorithm/problem-solving/", "author_profile"=>true, "taxonomy"=>"Problem Solving", "sidebar"=>{"nav"=>"categories"}, "content"=>"\n", "dir"=>"/categories/algorithm/problem-solving/", "name"=>"category-algorithm-problem-solving.md", "path"=>"_pages/categories/category-algorithm-problem-solving.md", "url"=>"/categories/algorithm/problem-solving/"}</li>-->
+<!--    -->
+<!--    <li>{"title"=>"Algorithm Theory", "layout"=>"category", "permalink"=>"/categories/algorithm/algorithm-theory/", "author_profile"=>true, "taxonomy"=>"Algorithm Theory", "sidebar"=>{"nav"=>"categories"}, "content"=>"\n", "dir"=>"/categories/algorithm/algorithm-theory/", "name"=>"category-algorithm-theory.md", "path"=>"_pages/categories/category-algorithm-theory.md", "url"=>"/categories/algorithm/algorithm-theory/"}</li>-->
+<!--    -->
+<!--    <li>{"title"=>"Diary", "layout"=>"category", "permalink"=>"/categories/diary/", "author_profile"=>true, "taxonomy"=>"Diary", "sidebar"=>{"nav"=>"categories"}, "content"=>"\n", "dir"=>"/categories/diary/", "name"=>"category-diary.md", "path"=>"_pages/categories/category-diary.md", "url"=>"/categories/diary/"}</li>-->
+<!--    -->
+<!--    <li>{"title"=>"Kaggle", "layout"=>"category", "permalink"=>"/categories/machine-learning/kaggle/", "author_profile"=>true, "taxonomy"=>"Kaggle", "sidebar"=>{"nav"=>"categories"}, "content"=>"\n", "dir"=>"/categories/machine-learning/kaggle/", "name"=>"category-machine-learning-kaggle.md", "path"=>"_pages/categories/category-machine-learning-kaggle.md", "url"=>"/categories/machine-learning/kaggle/"}</li>-->
+<!--    -->
+<!--    <li>{"title"=>"CS224n", "layout"=>"category", "permalink"=>"/categories/machine-learning/lecture/cs224n/", "author_profile"=>true, "taxonomy"=>"ML-Lecture-cs224n", "sidebar"=>{"nav"=>"categories"}, "content"=>"\n", "dir"=>"/categories/machine-learning/lecture/cs224n/", "name"=>"category-machine-learning-lecture-cs224n.md", "path"=>"_pages/categories/category-machine-learning-lecture-cs224n.md", "url"=>"/categories/machine-learning/lecture/cs224n/"}</li>-->
+<!--    -->
+<!--    <li>{"title"=>"Paper", "layout"=>"category", "permalink"=>"/categories/machine-learning/paper/", "author_profile"=>true, "taxonomy"=>"ML-Paper", "sidebar"=>{"nav"=>"categories"}, "content"=>"", "dir"=>"/categories/machine-learning/paper/", "name"=>"category-machine-learning-paper.md", "path"=>"_pages/categories/category-machine-learning-paper.md", "url"=>"/categories/machine-learning/paper/"}</li>-->
+<!--    -->
+<!--</ul>-->
+
+<!-- 해당 페이지의 children 이름들 찾기 -->
+
+    
+    
+
+    
+    
+        
+            
+        
+            
+        
+    
+
+    
+    
+        
+            
+        
+            
+                  <!-- 일치하는 항목을 current_category에 저장합니다. -->
+            
+        
+            
+        
+    
+
+
+
+  <!-- 빈 배열 초기화 -->
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+              <!-- taxonomy 추가 -->
+        
+        
+    
+
+    
+        
+        
+    
+
+
+<!-- 배열의 내용을 출력해보기 -->
+<!--<ul>-->
+<!--    -->
+<!--    <li>ML-Lecture-cs224n</li>-->
+<!--    -->
+<!--</ul>-->
+
+<!-- children categories을 찾아서 배열에 넣기 -->
+  <!-- 빈 배열 생성 -->
+
+
+<!-- 배열 내용 출력 -->
+<!--<h2>Matching Categories:</h2>-->
+<!--<ul>-->
+<!--    -->
+<!--    <li>ML-Lecture-cs224n: <a href="ml-lecture-cs224n">ML-Lecture-cs224n</a></li>-->
+<!--    -->
+<!--</ul>-->
+
+
+<!-- max 갯수 찾기 -->
+
+
+
+
+<ul class="taxonomy__index">
+    
+    
+    
+    <li>
+        <a href="ml-lecture-cs224n">
+            <strong>ML-Lecture-cs224n</strong> <span class="taxonomy__count">1</span>
+        </a>
+    </li>
+    
+    
+    
+</ul>
+
+
+
+
+    
+    <section id="ml-lecture-cs224n" class="taxonomy__section">
+        <h2 class="archive__subtitle">ML-Lecture-cs224n</h2>
+        <div class="entries-list">
+            
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ml-lecture-cs224n/cs224n-lecture-1/" rel="permalink">cs224n 1주차 강의
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-08-01T00:00:00+09:00">August 1, 2024</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">cs224n 1주차 강의
+</p>
+  </article>
+</div>
+
+            
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+    </section>
+    
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- Clipboard.js 라이브러리 추가 -->
+<!--<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // 모든 코드 블록을 찾아 복사 버튼 추가
+        document.querySelectorAll('div.highlighter-rouge').forEach(function(codeBlock) {
+            // 복사 버튼 생성
+            var button = document.createElement('button');
+            button.className = 'copy-button';
+            button.type = 'button';
+            button.innerText = 'Copy';
+
+            // 버튼 클릭 시 클립보드에 코드 복사
+            button.addEventListener('click', function() {
+                var code = codeBlock.querySelector('code').innerText; // 코드 블록 내의 코드만 가져오기
+                navigator.clipboard.writeText(code).then(function() {
+                    button.innerText = 'Copied!';
+                    setTimeout(function() {
+                        button.innerText = 'Copy';
+                    }, 2000); // 2초 후 버튼 텍스트를 다시 'Copy'로 변경
+                }, function(err) {
+                    console.error('Could not copy text: ', err);
+                });
+            });
+
+            // 코드 블록의 부모 요소에 버튼 추가
+            codeBlock.style.position = 'relative'; // 코드 블록에 position: relative 적용
+            codeBlock.style.marginBottom = '1em'; // 하단 마진 추가
+            codeBlock.style.overflowX = 'auto'; // 가로 스크롤바 추가
+
+            // 버튼 스타일링
+            button.style.position = 'absolute';
+            button.style.top = '10px'; // 상단 여백 조정
+            button.style.right = '10px'; // 우측 여백 조정
+            button.style.padding = '5px 10px';
+            button.style.border = 'none';
+            button.style.background = 'white'; // 기본 배경색 설정
+            button.style.color = '#007bff'; // 기본 텍스트 색상 설정
+            button.style.borderRadius = '5px';
+            button.style.cursor = 'pointer';
+            button.style.fontSize = '0.875em';
+            button.style.transition = 'background-color 0.3s, color 0.3s'; // 호버 시 애니메이션 효과 추가
+
+            // 버튼 호버 시 스타일 변경
+            button.addEventListener('mouseenter', function() {
+                button.style.color = 'white';
+                button.style.background = '#007bff';
+            });
+
+            button.addEventListener('mouseleave', function() {
+                button.style.color = '#007bff';
+                button.style.background = 'white';
+            });
+
+            codeBlock.appendChild(button); // 버튼을 코드 블록에 추가
+        });
+    });
+</script>-->
+<!-- Clipboard.js 라이브러리 끝 -->
+
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 jinsoolve. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+  
+    <script src="/assets/js/clipboardrouge.js"></script>
+  
+
+
+
+
+
+
+  </body>
+</html>
