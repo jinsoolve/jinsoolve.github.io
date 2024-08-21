@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bdda67b4f1cddcd0",
+        "id": "3f411cce21885ebc",
         "type": "tabs",
         "children": [
           {
-            "id": "930826660af67dc4",
+            "id": "a8d4db290afa804a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "_posts/2024-08-21-boj-15560.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 279.50390243530273
   },
   "right": {
     "id": "8c6d07e825cc2cc7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "_posts/2024-08-21-boj-15560.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md",
+                "file": "_posts/2024-08-21-boj-15560.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-24-강한-연결-요소.md"
+                "file": "_posts/2024-08-21-boj-15560.md"
               }
             }
           }
@@ -147,27 +147,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "930826660af67dc4",
+  "active": "a8d4db290afa804a",
   "lastOpenFiles": [
+    "templates/default.md",
+    "_posts/2024-08-21-boj-15560.md",
+    "_site/problem solving/boj-15560/index.html",
+    "_site/problem solving/boj-15560",
+    "_site/boj-15560/index.html",
+    "_site/boj-15560",
+    "_posts/2024-08-12-boj-20052.md",
+    "_posts/무제 폴더",
+    "templates/무제 파일.md",
+    "_posts/무제 파일 1.md",
+    "_posts/수 8월-21-2024-.md",
+    "_posts/무제 파일 5.md",
+    "_posts/무제 파일 4.md",
+    "_posts/무제 파일 3.md",
+    "_posts/무제 파일 2.md",
+    "_posts/2024-06-24-강한-연결-요소.md",
+    "_posts/2024-08-07-boj-25323.md",
+    "templates",
     "_site/categories/ml-lecture/index.html",
     "_site/categories/ml-lecture",
     "_site/categories/machine-learning-lecture/index.html",
     "_site/categories/machine-learning-lecture",
-    "_site/categories/kaggle/index.html",
-    "_site/categories/kaggle",
-    "_site/categories/problem-solving/index.html",
-    "_site/categories/problem-solving",
-    "_site/categories/algorithm-theory/index.html",
-    "_site/categories/algorithm-theory",
-    "_site/categorie/algorithm-algorithm-theory",
-    "_posts/2024-08-12-boj-20052.md",
-    "_posts/2024-08-07-boj-25323.md",
     "_posts/2024-08-05-boj-1585.md",
     "_posts/2024-08-07-내가-세상을-안다고-생각할-때.md",
     "_posts/2024-08-05-boj-1154-팀-편성.md",
     "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-test.md",
-    "templates/default.md",
     "_posts/2024-07-29-boj-26306.md",
     "_posts/2024-07-31-Edu-CF168-E.md",
     "_posts/2024-08-02-asdf.md",
@@ -175,16 +183,6 @@
     "_posts/024-08-02-.md",
     "_posts/2024-07-31-tmp-1.md",
     "_posts/2024-08-02-cs224n-lecture-1.md",
-    "_posts/2024-08-02-cs224n-1.md",
-    "_posts/2024-07-17-UCPC-2024-예선.md",
-    "_posts/2024-07-17-Kaggle-Curriculum.md",
-    "_posts/2024-07-06-kaggle-titanic.md",
-    "_posts/2024-07-11-Atcoder-Typical-90.md",
-    "_posts/2024-07-06-2024년-여름-방학-계획.md",
-    "_posts/2024-06-26-bipartite-matching.md",
-    "_posts/2024-06-26-algorithm-geometry.md",
-    "_posts/2024-06-24-강한-연결-요소.md",
-    "_pages/categories/category-machine-learning-lecture-cs224n.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
