@@ -16,7 +16,7 @@ layout: archive_without_sidebar
   {% for category in site.categories %}
   {% if category[1].size == i %}
   <li>
-    <a href="archive/{{ category[0] | slugify | downcase }}">
+    <a href="{{ category[0] | slugify | downcase }}">
       <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
     </a>
   </li>

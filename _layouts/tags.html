@@ -16,7 +16,7 @@ layout: archive_without_sidebar
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
         <li>
-          <a href="archive/{{ tag[0] | slugify | downcase }}">
+          <a href="{{ tag[0] | slugify | downcase }}">
             <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
         </li>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-22-test.md",
+                "file": "_posts/2024-08-22-boj-11883.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-22-test.md",
+                "file": "_posts/2024-08-22-boj-11883.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-22-test.md",
+                "file": "_posts/2024-08-22-boj-11883.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-22-test.md"
+                "file": "_posts/2024-08-22-boj-11883.md"
               }
             }
           }
@@ -149,21 +149,20 @@
   },
   "active": "a8d4db290afa804a",
   "lastOpenFiles": [
-    "_site/필수/index.html",
-    "_site/필수",
-    "_site/categories/archive/필수/index.html",
-    "_site/categories/archive/필수",
-    "_site/tags/archive/선택/index.html",
-    "_site/tags/archive/선택",
-    "_posts/2024-08-22-boj-11883.md",
     "_posts/2024-08-22-test.md",
-    "_site/problem solving/boj-11883/index.html",
-    "_site/problem solving/boj-11883",
-    "_site/tags/archive/다이나믹-프로그래밍/index.html",
-    "_site/tags/archive/다이나믹-프로그래밍",
+    "_site/test/test/index.html",
+    "_site/test/test",
+    "_site/test",
+    "_site/categories/test/index.html",
+    "_site/categories/test",
+    "_site/categories/ml-lecture-cs224n/index.html",
+    "_site/categories/ml-lecture-cs224n",
+    "_site/categories/kaggle/index.html",
+    "_site/categories/kaggle",
+    "_site/categories/problem-solving/index.html",
+    "_posts/2024-08-22-boj-11883.md",
     "_posts/2024-08-21-boj-15560.md",
     "templates/default.md",
-    "_site/problem solving/boj-15560/index.html",
     "_posts/2024-08-12-boj-20052.md",
     "templates/무제 파일.md",
     "_posts/무제 파일 1.md",
