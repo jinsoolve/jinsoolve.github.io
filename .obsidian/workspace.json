@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-21-boj-15560.md",
+                "file": "_posts/2024-08-22-test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-21-boj-15560.md",
+                "file": "_posts/2024-08-22-test.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-21-boj-15560.md",
+                "file": "_posts/2024-08-22-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-21-boj-15560.md"
+                "file": "_posts/2024-08-22-test.md"
               }
             }
           }
@@ -149,14 +149,22 @@
   },
   "active": "a8d4db290afa804a",
   "lastOpenFiles": [
-    "templates/default.md",
+    "_site/필수/index.html",
+    "_site/필수",
+    "_site/categories/archive/필수/index.html",
+    "_site/categories/archive/필수",
+    "_site/tags/archive/선택/index.html",
+    "_site/tags/archive/선택",
+    "_posts/2024-08-22-boj-11883.md",
+    "_posts/2024-08-22-test.md",
+    "_site/problem solving/boj-11883/index.html",
+    "_site/problem solving/boj-11883",
+    "_site/tags/archive/다이나믹-프로그래밍/index.html",
+    "_site/tags/archive/다이나믹-프로그래밍",
     "_posts/2024-08-21-boj-15560.md",
+    "templates/default.md",
     "_site/problem solving/boj-15560/index.html",
-    "_site/problem solving/boj-15560",
-    "_site/boj-15560/index.html",
-    "_site/boj-15560",
     "_posts/2024-08-12-boj-20052.md",
-    "_posts/무제 폴더",
     "templates/무제 파일.md",
     "_posts/무제 파일 1.md",
     "_posts/수 8월-21-2024-.md",
@@ -166,11 +174,6 @@
     "_posts/무제 파일 2.md",
     "_posts/2024-06-24-강한-연결-요소.md",
     "_posts/2024-08-07-boj-25323.md",
-    "templates",
-    "_site/categories/ml-lecture/index.html",
-    "_site/categories/ml-lecture",
-    "_site/categories/machine-learning-lecture/index.html",
-    "_site/categories/machine-learning-lecture",
     "_posts/2024-08-05-boj-1585.md",
     "_posts/2024-08-07-내가-세상을-안다고-생각할-때.md",
     "_posts/2024-08-05-boj-1154-팀-편성.md",
@@ -182,7 +185,6 @@
     "_posts/2024-08-02-title123.md",
     "_posts/024-08-02-.md",
     "_posts/2024-07-31-tmp-1.md",
-    "_posts/2024-08-02-cs224n-lecture-1.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
