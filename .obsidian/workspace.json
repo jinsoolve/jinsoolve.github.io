@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-22-boj-11883.md",
+                "file": "_posts/2024-08-28-boj-1898.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-22-boj-11883.md",
+                "file": "_posts/2024-08-28-boj-1898.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-22-boj-11883.md",
+                "file": "_posts/2024-08-28-boj-1898.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-22-boj-11883.md"
+                "file": "_posts/2024-08-28-boj-1898.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "a8d4db290afa804a",
   "lastOpenFiles": [
+    "_site/problem solving/boj-1898/index.html",
+    "_site/problem solving/boj-1898",
+    "_posts/2024-08-22-boj-11883.md",
+    "_posts/2024-08-28-boj-1898.md",
     "_posts/2024-08-22-test.md",
     "_site/test/test/index.html",
     "_site/test/test",
@@ -159,8 +163,6 @@
     "_site/categories/ml-lecture-cs224n",
     "_site/categories/kaggle/index.html",
     "_site/categories/kaggle",
-    "_site/categories/problem-solving/index.html",
-    "_posts/2024-08-22-boj-11883.md",
     "_posts/2024-08-21-boj-15560.md",
     "templates/default.md",
     "_posts/2024-08-12-boj-20052.md",
@@ -183,7 +185,6 @@
     "_posts/2024-08-02-asdf.md",
     "_posts/2024-08-02-title123.md",
     "_posts/024-08-02-.md",
-    "_posts/2024-07-31-tmp-1.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
