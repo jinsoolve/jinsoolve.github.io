@@ -52,8 +52,8 @@
     
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>이분 매칭 | jinsoolve</title>
-<meta name="description" content="이분 매칭">
+<!-- begin _includes/seo.html --><title>백준 1898 - 이전 수열은 어떤 수열일까 | jinsoolve</title>
+<meta name="description" content="이전 수열은 어떤 수열일까">
 
 
   <meta name="author" content="jinsoolve">
@@ -65,32 +65,32 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="Jinsoolve Blog">
-<meta property="og:title" content="이분 매칭">
-<meta property="og:url" content="https://jinsoolve.github.io/algorithm/bipartite/">
+<meta property="og:title" content="백준 1898 - 이전 수열은 어떤 수열일까">
+<meta property="og:url" content="https://jinsoolve.github.io/problem%20solving/boj-1898/">
 
 
-  <meta property="og:description" content="이분 매칭">
-
-
-
+  <meta property="og:description" content="이전 수열은 어떤 수열일까">
 
 
 
 
-  <meta property="article:published_time" content="2024-06-26T00:00:00+00:00">
 
 
 
-  <meta property="article:modified_time" content="2024-08-01T00:00:00+00:00">
+  <meta property="article:published_time" content="2024-08-28T00:00:00+00:00">
 
 
 
-  
+  <meta property="article:modified_time" content="2024-08-28T00:00:00+00:00">
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://jinsoolve.github.io/algorithm/bipartite/">
+
+<link rel="canonical" href="https://jinsoolve.github.io/problem%20solving/boj-1898/">
 
 
 
@@ -773,15 +773,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="이분 매칭">
-    <meta itemprop="description" content="이분 매칭">
-    <meta itemprop="datePublished" content="2024-06-26T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2024-08-01T00:00:00+00:00">
+    <meta itemprop="headline" content="백준 1898 - 이전 수열은 어떤 수열일까">
+    <meta itemprop="description" content="이전 수열은 어떤 수열일까">
+    <meta itemprop="datePublished" content="2024-08-28T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2024-08-28T00:00:00+00:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">이분 매칭
+          <h1 id="page-title" class="page__title" itemprop="headline">백준 1898 - 이전 수열은 어떤 수열일까
 </h1>
           
 
@@ -790,7 +790,7 @@
       
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <time datetime="2024-06-26T00:00:00+00:00">June 26, 2024</time>
+        <time datetime="2024-08-28T00:00:00+00:00">August 28, 2024</time>
       </span>
     
 
@@ -808,21 +808,28 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#이분매칭이란">이분매칭이란?</a><ul><li><a href="#시간복잡도">시간복잡도</a></li><li><a href="#코드">코드</a></li><li><a href="#참고">참고</a></li></ul></li><li><a href="#이분매칭의-활용">이분매칭의 활용</a><ul><li><a href="#최소-버텍스-커버-minimum-vertex-cover">최소 버텍스 커버 (Minimum Vertex Cover)</a><ul><li><a href="#쾨니그-정리-konigs-theorem">쾨니그 정리 (Konig’s Theorem)</a></li><li><a href="#참고-1">참고</a></li></ul></li><li><a href="#최대-독립-집합-maximum-independent-set">최대 독립 집합 (Maximum Independent Set)</a><ul><li><a href="#참고-2">참고</a></li></ul></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#이전-수열은-어떤-수열일까">이전 수열은 어떤 수열일까</a><ul><li><a href="#풀이">풀이</a></li><li><a href="#코드">코드</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="이분매칭이란">이분매칭이란?</h1>
-<p><img src="/assets/images/posts_img/Pasted%20image%2020240703143547.png" alt="" />
-위 그림과 같이 인접한 정점끼리 서로 다른 색으로 색칠하는데 모든 정점을 2가지 색으로만 표현할 수 있으면 이를 <code class="language-plaintext highlighter-rouge">이분 그래프</code>라고 한다.</p>
+        <h1 id="이전-수열은-어떤-수열일까"><a href="https://www.acmicpc.net/problem/1898">이전 수열은 어떤 수열일까</a></h1>
 
-<p>이분매칭은 이러한 이분 그래프에서 각 정점이 최대 1개의 간선만 갖을 수 있으면서 그러한 간선(매칭)을 최대로 하는 기법이다.</p>
+<h2 id="풀이">풀이</h2>
 
-<p><img src="/assets/images/posts_img/Pasted%20image%2020240703143511.png" alt="" /></p>
+<p>원래 수가 x이고 새로운 수가 nx로 두고 싶다고 하자.<br />
+왼쪽부터 접근한다고 했을 때 가장 작은 수가 되려면 nx는 x보다 작으면 좋고 최소한 같아야 한다.<br />
+따라서 nx = x-1이거나 x이다. nx = x인 경우는 그냥 그대로 넣으면 되므로 상관없고 nx = x-1인 경우를 살펴보자.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>원래:   x    ...  x-1  
+새로운: x-1  ...   ?  
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<h2 id="시간복잡도">시간복잡도</h2>
-<p>dfs로 구현하면 O(VE)이다.</p>
+<p>? 자리에 x-1은 이미 사용해서 올 수 없으므로 x-2나 x가 가능하다. 만약 ?에 x-2가 오게 된다면 원래의 x-2에는 x-3, x-2, x-1중에서 쓸 수 있는 수가 x-3만 사용 가능하므로 점점 작아진다. 이는 1이상의 차이가 나는 자리가 생길 수 밖에 없다.<br />
+따라서 ?는 x만 올 수 있다.</p>
+
+<p>이를 이용해서 그리디하게 풀면 해결 가능하다.</p>
 
 <h2 id="코드">코드</h2>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -864,81 +871,92 @@
 37
 38
 39
-</pre></td><td class="rouge-code"><pre><span class="k">class</span> <span class="nc">BipartiteMatching</span> <span class="p">{</span>
-<span class="nl">private:</span>
-    <span class="kt">int</span> <span class="n">ln</span><span class="p">,</span> <span class="n">rn</span><span class="p">;</span> <span class="c1">// (1~ln) -&gt; (1~rn) bipartite graph</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">g</span><span class="p">;</span> <span class="c1">// g[1~ln]</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">bool</span><span class="o">&gt;</span> <span class="n">visited</span><span class="p">;</span> <span class="c1">// visited[1~ln]</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">parent</span><span class="p">;</span> <span class="c1">// parent[1~rn]</span>
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+</pre></td><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span>
+<span class="cp">#define endl "\n"
+#define all(v) (v).begin(), (v).end()
+#define For(i, a, b) for(ll i=(a); i&lt;(b); i++)
+#define FOR(i, a, b) for(ll i=(a); i&lt;=(b); i++)
+#define Bor(i, a, b) for(ll i=(a); i&gt;(b); i--)
+#define BOR(i, a, b) for(ll i=(a); i&gt;=(b); i--)
+#define ft first
+#define sd second
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">ll</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">lll</span> <span class="o">=</span> <span class="n">__int128_t</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">ulll</span> <span class="o">=</span> <span class="n">__uint128_t</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">ull</span> <span class="o">=</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">ld</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">double</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">pii</span> <span class="o">=</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">pll</span> <span class="o">=</span> <span class="n">pair</span><span class="o">&lt;</span><span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">ti3</span> <span class="o">=</span> <span class="n">tuple</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">tl3</span> <span class="o">=</span> <span class="n">tuple</span><span class="o">&lt;</span><span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="o">&gt;</span><span class="p">;</span>
 
-<span class="nl">public:</span>
-    <span class="n">BipartiteMatching</span><span class="p">()</span> <span class="p">{}</span>
-    <span class="n">BipartiteMatching</span><span class="p">(</span><span class="kt">int</span> <span class="n">_ln</span><span class="p">,</span> <span class="kt">int</span> <span class="n">_rn</span><span class="p">)</span> <span class="o">:</span> <span class="n">ln</span><span class="p">(</span><span class="n">_ln</span><span class="p">),</span> <span class="n">rn</span><span class="p">(</span><span class="n">_rn</span><span class="p">),</span> <span class="n">g</span><span class="p">(</span><span class="n">_ln</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">visited</span><span class="p">(</span><span class="n">_ln</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">parent</span><span class="p">(</span><span class="n">_rn</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="p">{}</span>
-    <span class="o">~</span><span class="n">BipartiteMatching</span><span class="p">()</span> <span class="p">{</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">clear</span><span class="p">();</span> <span class="p">}</span>
-    <span class="kt">void</span> <span class="n">clear</span><span class="p">()</span> <span class="p">{</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="n">ln</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">g</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">clear</span><span class="p">();</span>
-    <span class="p">}</span>
-    <span class="kt">void</span> <span class="n">add_edge</span><span class="p">(</span><span class="kt">int</span> <span class="n">u</span><span class="p">,</span> <span class="kt">int</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span> <span class="n">g</span><span class="p">[</span><span class="n">u</span><span class="p">].</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">v</span><span class="p">);</span> <span class="p">}</span>
-    <span class="kt">bool</span> <span class="n">dfs</span><span class="p">(</span><span class="kt">int</span> <span class="n">here</span><span class="p">)</span> <span class="p">{</span>
-        <span class="c1">// 이미 처리한 노드는 더 이상 볼 필요가 없음</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">visited</span><span class="p">[</span><span class="n">here</span><span class="p">])</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-        <span class="n">visited</span><span class="p">[</span><span class="n">here</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span> <span class="kt">bool</span> <span class="nf">ckmin</span><span class="p">(</span><span class="n">T</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">?</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span>
+<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span> <span class="kt">bool</span> <span class="n">ckmax</span><span class="p">(</span><span class="n">T</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">?</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span>
 
-        <span class="c1">// 연결된 모든 노드에 대해서 들어갈 수 있는지 시도</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">there</span> <span class="o">:</span> <span class="n">g</span><span class="p">[</span><span class="n">here</span><span class="p">])</span> <span class="p">{</span>
-            <span class="k">if</span><span class="p">(</span><span class="n">parent</span><span class="p">[</span><span class="n">there</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="o">||</span> <span class="n">dfs</span><span class="p">(</span><span class="n">parent</span><span class="p">[</span><span class="n">there</span><span class="p">]))</span> <span class="p">{</span>
-                <span class="n">parent</span><span class="p">[</span><span class="n">there</span><span class="p">]</span> <span class="o">=</span> <span class="n">here</span><span class="p">;</span>
-                <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">INF</span> <span class="o">=</span> <span class="mi">987654321</span><span class="p">;</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">INF0</span> <span class="o">=</span> <span class="n">numeric_limits</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">max</span><span class="p">();</span>
+<span class="k">const</span> <span class="n">ll</span> <span class="n">LNF</span> <span class="o">=</span> <span class="mi">987654321987654321</span><span class="p">;</span>
+<span class="k">const</span> <span class="n">ll</span> <span class="n">LNF0</span> <span class="o">=</span> <span class="n">numeric_limits</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;::</span><span class="n">max</span><span class="p">();</span>
+
+<span class="kt">void</span> <span class="n">solve</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">link</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">FOR</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">x</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">link</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">nx</span><span class="o">=</span><span class="n">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span> <span class="n">nx</span><span class="o">&lt;=</span><span class="n">min</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span> <span class="n">nx</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">link</span><span class="p">[</span><span class="n">nx</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="k">continue</span><span class="p">;</span>
+                <span class="n">link</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">nx</span><span class="p">;</span>
+                <span class="n">link</span><span class="p">[</span><span class="n">nx</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
             <span class="p">}</span>
         <span class="p">}</span>
-        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">link</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
     <span class="p">}</span>
-    <span class="kt">int</span> <span class="n">matching</span><span class="p">()</span> <span class="p">{</span>
-        <span class="n">fill</span><span class="p">(</span><span class="n">all</span><span class="p">(</span><span class="n">parent</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
-        <span class="kt">int</span> <span class="n">ret</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span><span class="n">ln</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">fill</span><span class="p">(</span><span class="n">all</span><span class="p">(</span><span class="n">visited</span><span class="p">),</span> <span class="nb">false</span><span class="p">);</span>
-            <span class="n">ret</span> <span class="o">+=</span> <span class="n">dfs</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+    <span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">nullptr</span><span class="p">);</span>
+    <span class="n">cout</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">nullptr</span><span class="p">);</span>
+
+    <span class="kt">int</span> <span class="n">TC</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<span class="c1">//    cin &gt;&gt; TC;</span>
+    <span class="n">FOR</span><span class="p">(</span><span class="n">tc</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">TC</span><span class="p">)</span> <span class="p">{</span>
+<span class="c1">//        cout &lt;&lt; "Case #" &lt;&lt; tc &lt;&lt; ": ";</span>
+        <span class="n">solve</span><span class="p">();</span>
     <span class="p">}</span>
-<span class="p">};</span>
+
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
-<h2 id="참고">참고</h2>
-<p><a href="https://blog.naver.com/ndb796/221240613074">https://blog.naver.com/ndb796/221240613074</a>
-<a href="https://gmlwjd9405.github.io/2018/08/23/algorithm-bipartite-graph.html">https://gmlwjd9405.github.io/2018/08/23/algorithm-bipartite-graph.html</a></p>
-
-<hr />
-<h1 id="이분매칭의-활용">이분매칭의 활용</h1>
-<h2 id="최소-버텍스-커버-minimum-vertex-cover">최소 버텍스 커버 (Minimum Vertex Cover)</h2>
-<p><code class="language-plaintext highlighter-rouge">버텍스 커버</code>란, 정점 집합 S가 있을 때, 모든 간선은 양 끝점 중 적어도 하나가 S에 포함되어 있어야 한다.
-<img src="/assets/images/posts_img/Pasted%20image%2020240703143731.png" alt="" /></p>
-
-<p>이떄 최소 버텍스 커버는 집합 S의 크기가 최소가 될 때의 그 크기를 말한다.<br />
-아래 그림의 주황색 노드가 S가 되면 그래프는 버텍스 커버가 된다.</p>
-<h3 id="쾨니그-정리-konigs-theorem">쾨니그 정리 (Konig’s Theorem)</h3>
-
-<p>쾨니그의 정리에 따르면, 아래가 성립한다.</p>
-
-\[|Minimun \,Vertex \,Cover| = |Maximum \,Bipartite \,Matching|\]
-
-<p>따라서 최소 버텍스 커버를 찾고 싶으면 최대 이분 매칭을 하면 알 수 있다.</p>
-
-<h3 id="참고-1">참고</h3>
-<p><a href="https://www.crocus.co.kr/756">https://www.crocus.co.kr/756</a></p>
-
-<hr />
-
-<h2 id="최대-독립-집합-maximum-independent-set">최대 독립 집합 (Maximum Independent Set)</h2>
-
-<p><img src="/assets/images/posts_img/Pasted%20image%2020240703143857.png" alt="" />
-(최대 독립 집합)은 (최소 버텍스 커버)의 여집합이다.</p>
-
-<p>생각해보면 위 명제는 당연하다.<br />
-최소 버텍스 커버가 모든 edge의 한 쪽을 담당하고 있으니 나머지 노드를 모아보면 서로 인접할 수가 없다.</p>
-
-<h3 id="참고-2">참고</h3>
-<p><a href="https://m.blog.naver.com/jqkt15/222054905941">https://m.blog.naver.com/jqkt15/222054905941</a></p>
 
         
       </section>
@@ -946,6 +964,21 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/%EA%B7%B8%EB%A6%AC%EB%94%94" class="page__taxonomy-item" rel="tag">그리디</a>
+    
+    </span>
+  </p>
+
+
 
 
   
@@ -957,14 +990,14 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/algorithm-theory" class="page__taxonomy-item" rel="tag">Algorithm Theory</a>
+      <a href="/categories/problem-solving" class="page__taxonomy-item" rel="tag">Problem Solving</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-08-01">August 1, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-08-28">August 28, 2024</time></p>
 
 
       </footer>
@@ -974,12 +1007,11 @@
       
   <nav class="pagination">
     
-      <a href="/algorithm/scc/" class="pagination--pager" title="강한 연결 요소(Strongly Connected Component, SCC)
+      <a href="/problem%20solving/boj-11883/" class="pagination--pager" title="백준 11883 - 생일수 I
 ">Prev</a>
     
     
-      <a href="/diary/2024%EB%85%84-%EC%97%AC%EB%A6%84-%EB%B0%A9%ED%95%99-%EA%B3%84%ED%9A%8D/" class="pagination--pager" title="2024년 여름 방학 계획
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -1003,43 +1035,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/problem%20solving/boj-1898/" rel="permalink">백준 1898 - 이전 수열은 어떤 수열일까
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <time datetime="2024-08-28T00:00:00+00:00">August 28, 2024</time>
-      </span>
-    
-
-    
-
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">이전 수열은 어떤 수열일까
-
-</p>
-  </article>
-</div>
-
         
           
 
@@ -1148,6 +1143,44 @@
     <p class="archive__item-excerpt" itemprop="description">백준 20052 - 괄호 문자열?
 
 </p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/problem%20solving/boj-25323/" rel="permalink">백준 25323 - 수 정렬하기, 근데 이제 제곱수를 곁들인
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-08-07T00:00:00+00:00">August 7, 2024</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">백준 25323 - 수 정렬하기, 근데 이제 제곱수를 곁들인
+풀이
+$a \times b$ 가 제곱수이고 $b \times c$가 제곱수이면, 이 2개를 곱한 $a \times b^2 \times c$는 제곱수이다.
+근데 $b^2$가 제곱수이므로 $a \times c$는 제곱수이어야...</p>
   </article>
 </div>
 
