@@ -69,7 +69,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/problem%20solving/boj-1898/</loc>
-<lastmod>2024-08-28T00:00:00+09:00</lastmod>
+<lastmod>2024-08-29T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/problem%20solving/boj-17409/</loc>
+<lastmod>2024-08-29T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -179,6 +183,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/%ED%8E%9C%EC%9C%85-%ED%8A%B8%EB%A6%AC/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/algorithm-theory/</loc>
