@@ -52,8 +52,8 @@
     
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>백준 17409 - 증가 수열의 개수 | jinsoolve</title>
-<meta name="description" content="증가 수열의 개수">
+<!-- begin _includes/seo.html --><title>백준 1498 - 주기문 | jinsoolve</title>
+<meta name="description" content="주기문">
 
 
   <meta name="author" content="jinsoolve">
@@ -65,32 +65,32 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="Jinsoolve Blog">
-<meta property="og:title" content="백준 17409 - 증가 수열의 개수">
-<meta property="og:url" content="https://jinsoolve.github.io/problem%20solving/boj-17409/">
+<meta property="og:title" content="백준 1498 - 주기문">
+<meta property="og:url" content="https://jinsoolve.github.io/problem%20solving/boj-1498/">
 
 
-  <meta property="og:description" content="증가 수열의 개수">
-
-
-
+  <meta property="og:description" content="주기문">
 
 
 
 
-  <meta property="article:published_time" content="2024-08-29T00:00:00+00:00">
 
 
 
-  <meta property="article:modified_time" content="2024-08-29T00:00:00+00:00">
+  <meta property="article:published_time" content="2024-09-02T00:00:00+00:00">
 
 
 
-  
+  <meta property="article:modified_time" content="2024-09-02T00:00:00+00:00">
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://jinsoolve.github.io/problem%20solving/boj-17409/">
+
+<link rel="canonical" href="https://jinsoolve.github.io/problem%20solving/boj-1498/">
 
 
 
@@ -773,15 +773,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="백준 17409 - 증가 수열의 개수">
-    <meta itemprop="description" content="증가 수열의 개수">
-    <meta itemprop="datePublished" content="2024-08-29T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2024-08-29T00:00:00+00:00">
+    <meta itemprop="headline" content="백준 1498 - 주기문">
+    <meta itemprop="description" content="주기문">
+    <meta itemprop="datePublished" content="2024-09-02T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2024-09-02T00:00:00+00:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">백준 17409 - 증가 수열의 개수
+          <h1 id="page-title" class="page__title" itemprop="headline">백준 1498 - 주기문
 </h1>
           
 
@@ -790,7 +790,7 @@
       
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <time datetime="2024-08-29T00:00:00+00:00">August 29, 2024</time>
+        <time datetime="2024-09-02T00:00:00+00:00">September 2, 2024</time>
       </span>
     
 
@@ -808,24 +808,24 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#증가-수열의-개수">증가 수열의 개수</a><ul><li><a href="#풀이">풀이</a></li><li><a href="#코드">코드</a><ul><li><a href="#코드1---세그먼트-트리">코드1 - 세그먼트 트리</a></li><li><a href="#코드2---펜윅트리">코드2 - 펜윅트리</a></li></ul></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#주기문">주기문</a><ul><li><a href="#풀이">풀이</a></li><li><a href="#코드">코드</a></li></ul></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="증가-수열의-개수"><a href="https://www.acmicpc.net/problem/17409">증가 수열의 개수</a></h1>
+        <h1 id="주기문"><a href="https://www.acmicpc.net/problem/1498">주기문</a></h1>
 
 <h2 id="풀이">풀이</h2>
-<p>왼쪽부터 수열 A를 받아 dp에 저장한다고 하자.<br />
-<code class="language-plaintext highlighter-rouge">dp[n][k]</code> := n을 최대 수로 갖는 길이가 k인 증가하는 부분 수열의 갯수 이라 하자.<br />
-현재 수를 n+1이라 할 때, <code class="language-plaintext highlighter-rouge">dp[n+1][k+1]</code>은 <code class="language-plaintext highlighter-rouge">dp[1~n][k]</code>의 모든 합을 더한 값이 될 것이다.<br />
-왜냐하면 <code class="language-plaintext highlighter-rouge">dp[1~n][k]</code>은 현재 수보다 왼쪽에 있으면서 끝 수가 n+1보다 작은 증가하는 부분수열의 갯수들이기 떄문이다.</p>
+<p>KMP 알고리즘의 pi 배열을 이용한다.</p>
 
-<p>위 합은 세그먼트 트리나 펜윅 트리로 저장하여 그 값을 저장하면 될 것이다.<br />
-정답은 <code class="language-plaintext highlighter-rouge">dp[1~N][K]</code>의 합이 될 것이다.</p>
+<p>길이가 a인 문자열의 pi[a]를 b라 하자.<br />
+<code class="language-plaintext highlighter-rouge">[ [------b------][--(a-b)--] ]</code> 이런 식으로 문자열 a가 있다고 하자.<br />
+만약 a를 (a-b)로 나눴을 때 나눠 떨어진다면 문자열 a는 (a-b) 문자열의 반복으로 이루어져 있다.<br />
+그 이유는 a가 (a-b)로 나눠진다는 건 b 또한 (a-b) 덩어리들로 나눌 수 있다는 거고 prefix인 b는 문자열 a의 suffix와 동일하기 때문에 결국 a-b 문자열이 반복된다는 사실을 알 수 있다.</p>
+
+<p>따라서 a / (a-b)가 해당 문자열 a의 가장 큰 n이 된다.</p>
 
 <h2 id="코드">코드</h2>
-<h3 id="코드1---세그먼트-트리">코드1 - 세그먼트 트리</h3>
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -895,31 +895,6 @@
 67
 68
 69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
 </pre></td><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
 </span>
 <span class="cp">#define endl "\n"
@@ -950,53 +925,28 @@
 <span class="k">const</span> <span class="n">ll</span> <span class="n">LNF</span> <span class="o">=</span> <span class="mi">987654321987654321</span><span class="p">;</span>
 <span class="k">const</span> <span class="n">ll</span> <span class="n">LNF0</span> <span class="o">=</span> <span class="n">numeric_limits</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;::</span><span class="n">max</span><span class="p">();</span>
 
-<span class="k">const</span> <span class="n">ll</span> <span class="n">mod</span> <span class="o">=</span> <span class="mf">1e9</span><span class="o">+</span><span class="mi">7</span><span class="p">;</span>
-
-<span class="k">class</span> <span class="nc">Segment</span> <span class="p">{</span>
-<span class="nl">public:</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;</span> <span class="n">tree</span><span class="p">;</span> <span class="c1">//tree[node] := a[start ~ end] 의 합</span>
-
-    <span class="n">Segment</span><span class="p">()</span> <span class="p">{}</span>
-    <span class="n">Segment</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">this</span><span class="o">-&gt;</span><span class="n">resize</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
+<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">getPi</span><span class="p">(</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">p</span><span class="p">){</span>
+    <span class="kt">int</span> <span class="n">m</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">p</span><span class="p">.</span><span class="n">size</span><span class="p">(),</span> <span class="n">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">pi</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">m</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span>  <span class="n">p</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="n">pi</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">];</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">p</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+            <span class="n">pi</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">++</span><span class="n">j</span><span class="p">;</span>
     <span class="p">}</span>
-    <span class="kt">void</span> <span class="n">resize</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="n">floor</span><span class="p">(</span><span class="n">log2</span><span class="p">(</span><span class="n">size</span><span class="p">))</span> <span class="o">+</span> <span class="mi">2</span><span class="p">;</span>
-        <span class="n">size</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">size</span><span class="p">);</span>
-        <span class="n">tree</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="n">ll</span> <span class="n">sum</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">right</span> <span class="o">&lt;</span> <span class="n">start</span> <span class="o">||</span> <span class="n">end</span> <span class="o">&lt;</span> <span class="n">left</span><span class="p">)</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">left</span> <span class="o">&lt;=</span> <span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="n">end</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="k">return</span> <span class="n">tree</span><span class="p">[</span><span class="n">node</span><span class="p">];</span>
-        <span class="k">return</span> <span class="p">(</span><span class="n">sum</span><span class="p">(</span><span class="n">node</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="p">(</span><span class="n">start</span> <span class="o">+</span> <span class="n">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span> <span class="o">+</span>
-                <span class="n">sum</span><span class="p">(</span><span class="n">node</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">start</span> <span class="o">+</span> <span class="n">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">))</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="kt">void</span> <span class="n">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">index</span><span class="p">,</span> <span class="n">ll</span> <span class="n">value</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">index</span> <span class="o">&lt;</span> <span class="n">start</span> <span class="o">||</span> <span class="n">end</span> <span class="o">&lt;</span> <span class="n">index</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">start</span> <span class="o">==</span> <span class="n">end</span><span class="p">)</span> <span class="n">tree</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
-        <span class="k">else</span> <span class="p">{</span>
-            <span class="n">update</span><span class="p">(</span><span class="n">node</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="p">(</span><span class="n">start</span> <span class="o">+</span> <span class="n">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">index</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
-            <span class="n">update</span><span class="p">(</span><span class="n">node</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="n">start</span> <span class="o">+</span> <span class="n">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">index</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
-            <span class="n">tree</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">tree</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">]</span> <span class="o">+</span> <span class="n">tree</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">};</span>
+    <span class="k">return</span> <span class="n">pi</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">pi</span><span class="p">;</span>
 
 <span class="kt">void</span> <span class="n">solve</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="n">k</span><span class="p">;</span>
-    <span class="n">Segment</span> <span class="n">tree</span><span class="p">[</span><span class="mi">11</span><span class="p">];</span>
-    <span class="n">FOR</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> <span class="n">tree</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">resize</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+    <span class="n">string</span> <span class="n">s</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">s</span><span class="p">;</span>
+    <span class="n">pi</span> <span class="o">=</span> <span class="n">getPi</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
 
-    <span class="n">FOR</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kt">int</span> <span class="n">a</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">;</span>
-        <span class="n">tree</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">update</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">kk</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span> <span class="n">kk</span><span class="o">&lt;=</span><span class="n">k</span><span class="p">;</span> <span class="n">kk</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">ll</span> <span class="n">res</span> <span class="o">=</span> <span class="n">tree</span><span class="p">[</span><span class="n">kk</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">a</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
-            <span class="n">tree</span><span class="p">[</span><span class="n">kk</span><span class="p">].</span><span class="n">update</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-        <span class="p">}</span>
+    <span class="n">For</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">s</span><span class="p">.</span><span class="n">length</span><span class="p">())</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">pi</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">continue</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">a_b</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">-</span><span class="n">pi</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="o">%</span><span class="n">a_b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="sc">' '</span> <span class="o">&lt;&lt;</span> <span class="n">a</span><span class="o">/</span><span class="n">a_b</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
     <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">tree</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
@@ -1016,188 +966,6 @@
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<h3 id="코드2---펜윅트리">코드2 - 펜윅트리</h3>
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-</pre></td><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span>
-<span class="cp">#define endl "\n"
-#define all(v) (v).begin(), (v).end()
-#define For(i, a, b) for(ll i=(a); i&lt;(b); i++)
-#define FOR(i, a, b) for(ll i=(a); i&lt;=(b); i++)
-#define Bor(i, a, b) for(ll i=(a); i&gt;(b); i--)
-#define BOR(i, a, b) for(ll i=(a); i&gt;=(b); i--)
-#define ft first
-#define sd second
-</span>
-<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">ll</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">lll</span> <span class="o">=</span> <span class="n">__int128_t</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">ulll</span> <span class="o">=</span> <span class="n">__uint128_t</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">ull</span> <span class="o">=</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">ld</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">double</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">pii</span> <span class="o">=</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">pll</span> <span class="o">=</span> <span class="n">pair</span><span class="o">&lt;</span><span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="o">&gt;</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">ti3</span> <span class="o">=</span> <span class="n">tuple</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">;</span>
-<span class="k">using</span> <span class="n">tl3</span> <span class="o">=</span> <span class="n">tuple</span><span class="o">&lt;</span><span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="p">,</span> <span class="n">ll</span><span class="o">&gt;</span><span class="p">;</span>
-
-<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span> <span class="kt">bool</span> <span class="nf">ckmin</span><span class="p">(</span><span class="n">T</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">?</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span>
-<span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="p">&gt;</span> <span class="kt">bool</span> <span class="n">ckmax</span><span class="p">(</span><span class="n">T</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">T</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">?</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">0</span><span class="p">;</span> <span class="p">}</span>
-
-<span class="k">const</span> <span class="kt">int</span> <span class="n">INF</span> <span class="o">=</span> <span class="mi">987654321</span><span class="p">;</span>
-<span class="k">const</span> <span class="kt">int</span> <span class="n">INF0</span> <span class="o">=</span> <span class="n">numeric_limits</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">max</span><span class="p">();</span>
-<span class="k">const</span> <span class="n">ll</span> <span class="n">LNF</span> <span class="o">=</span> <span class="mi">987654321987654321</span><span class="p">;</span>
-<span class="k">const</span> <span class="n">ll</span> <span class="n">LNF0</span> <span class="o">=</span> <span class="n">numeric_limits</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;::</span><span class="n">max</span><span class="p">();</span>
-
-<span class="k">const</span> <span class="n">ll</span> <span class="n">mod</span> <span class="o">=</span> <span class="mf">1e9</span><span class="o">+</span><span class="mi">7</span><span class="p">;</span>
-
-<span class="k">class</span> <span class="nc">FenwickTree</span> <span class="p">{</span>
-<span class="nl">private:</span>
-    <span class="kt">int</span> <span class="n">size</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;</span> <span class="n">tree</span><span class="p">;</span>
-
-<span class="nl">public:</span>
-    <span class="n">FenwickTree</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="o">:</span> <span class="n">size</span><span class="p">(</span><span class="n">size</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">tree</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="kt">void</span> <span class="n">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">idx</span><span class="p">,</span> <span class="n">ll</span> <span class="n">delta</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">idx</span> <span class="o">&lt;=</span> <span class="n">size</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">tree</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">tree</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">+</span> <span class="n">delta</span><span class="p">)</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
-            <span class="n">idx</span> <span class="o">+=</span> <span class="n">idx</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">idx</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="n">ll</span> <span class="n">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">idx</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">ll</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">idx</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">sum</span> <span class="o">=</span> <span class="p">(</span><span class="n">sum</span> <span class="o">+</span> <span class="n">tree</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
-            <span class="n">idx</span> <span class="o">-=</span> <span class="n">idx</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">idx</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="n">sum</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">};</span>
-
-<span class="kt">void</span> <span class="n">solve</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="n">k</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">FenwickTree</span><span class="o">&gt;</span> <span class="n">tree</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">FenwickTree</span><span class="p">(</span><span class="n">n</span><span class="p">));</span>
-
-    <span class="n">FOR</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kt">int</span> <span class="n">a</span><span class="p">;</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">;</span>
-        <span class="n">tree</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">update</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
-        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">kk</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span> <span class="n">kk</span><span class="o">&lt;=</span><span class="n">k</span><span class="p">;</span> <span class="n">kk</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">ll</span> <span class="n">res</span> <span class="o">=</span> <span class="n">tree</span><span class="p">[</span><span class="n">kk</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">query</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
-            <span class="n">tree</span><span class="p">[</span><span class="n">kk</span><span class="p">].</span><span class="n">update</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">res</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">tree</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">query</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
-    <span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">nullptr</span><span class="p">);</span>
-    <span class="n">cout</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">nullptr</span><span class="p">);</span>
-
-    <span class="kt">int</span> <span class="n">TC</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
-<span class="c1">//    cin &gt;&gt; TC;</span>
-    <span class="n">FOR</span><span class="p">(</span><span class="n">tc</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">TC</span><span class="p">)</span> <span class="p">{</span>
-<span class="c1">//        cout &lt;&lt; "Case #" &lt;&lt; tc &lt;&lt; ": ";</span>
-        <span class="n">solve</span><span class="p">();</span>
-    <span class="p">}</span>
-
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
 
         
       </section>
@@ -1214,11 +982,9 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" class="page__taxonomy-item" rel="tag">다이나믹-프로그래밍</a><span class="sep">, </span>
+      <a href="/tags/kmp" class="page__taxonomy-item" rel="tag">KMP</a><span class="sep">, </span>
     
-      <a href="/tags/%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8-%ED%8A%B8%EB%A6%AC" class="page__taxonomy-item" rel="tag">세그먼트-트리</a><span class="sep">, </span>
-    
-      <a href="/tags/%ED%8E%9C%EC%9C%85-%ED%8A%B8%EB%A6%AC" class="page__taxonomy-item" rel="tag">펜윅-트리</a>
+      <a href="/tags/%EB%AC%B8%EC%9E%90%EC%97%B4" class="page__taxonomy-item" rel="tag">문자열</a>
     
     </span>
   </p>
@@ -1242,7 +1008,7 @@
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-08-29">August 29, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-09-02">September 2, 2024</time></p>
 
 
       </footer>
@@ -1252,12 +1018,11 @@
       
   <nav class="pagination">
     
-      <a href="/problem%20solving/boj-1898/" class="pagination--pager" title="백준 1898 - 이전 수열은 어떤 수열일까
+      <a href="/problem%20solving/boj-9623/" class="pagination--pager" title="백준 9623 - 부분 수열의 길이
 ">Prev</a>
     
     
-      <a href="/problem%20solving/boj-9623/" class="pagination--pager" title="백준 9623 - 부분 수열의 길이
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -1291,43 +1056,6 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/problem%20solving/boj-1498/" rel="permalink">백준 1498 - 주기문
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <time datetime="2024-09-02T00:00:00+00:00">September 2, 2024</time>
-      </span>
-    
-
-    
-
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">주기문
-
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
         <a href="/problem%20solving/boj-9623/" rel="permalink">백준 9623 - 부분 수열의 길이
 </a>
       
@@ -1350,6 +1078,43 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">부분 수열의 길이
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/problem%20solving/boj-17409/" rel="permalink">백준 17409 - 증가 수열의 개수
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <time datetime="2024-08-29T00:00:00+00:00">August 29, 2024</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">증가 수열의 개수
 
 </p>
   </article>
