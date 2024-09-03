@@ -7,5 +7,6 @@
   "newLinkFormat": "absolute",
   "focusNewTab": true,
   "spellcheck": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showRibbon": true
 }

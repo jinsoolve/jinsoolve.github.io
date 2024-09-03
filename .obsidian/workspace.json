@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-02-boj-1498.md",
+                "file": "_posts/2024-09-03-boj-1432.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-02-boj-1498.md",
+                "file": "_posts/2024-09-03-boj-1432.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-02-boj-1498.md",
+                "file": "_posts/2024-09-03-boj-1432.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-02-boj-1498.md"
+                "file": "_posts/2024-09-03-boj-1432.md"
               }
             }
           }
@@ -149,22 +149,23 @@
   },
   "active": "a8d4db290afa804a",
   "lastOpenFiles": [
-    "_site/problem solving/boj-1498/index.html",
-    "_site/problem solving/boj-1498",
-    "_site/tags/kmp/index.html",
-    "_site/tags/kmp",
-    "_site/tags/문자열/index.html",
-    "_site/tags/문자열",
-    "_posts/2024-08-30-boj-9623.md",
+    "_site/problem solving/boj-1432/index.html",
+    "_site/problem solving/boj-1432",
+    "_site/page3/index.html",
+    "_site/page3",
+    "_site/tags/우선순위-큐/index.html",
+    "_site/tags/우선순위-큐",
+    "_site/tags/사이클-검사/index.html",
+    "_site/tags/사이클-검사",
+    "_site/tags/그래프-이론/index.html",
+    "_site/tags/그래프-이론",
+    "_site/tags/위상정렬/index.html",
     "_posts/2024-09-02-boj-1498.md",
-    "_site/problem solving/boj-9623/index.html",
-    "_site/problem solving/boj-9623",
+    "_posts/2024-09-03-boj-1432.md",
+    "_posts/2024-08-30-boj-9623.md",
     "_posts/2024-08-22-boj-11883.md",
     "_posts/2024-08-28-boj-1898.md",
     "_posts/2024-08-29-boj-17409.md",
-    "_site/problem solving/boj-17409/index.html",
-    "_site/problem solving/boj-17409",
-    "_site/tags/펜윅-트리/index.html",
     "_posts/2024-08-22-test.md",
     "_posts/2024-08-21-boj-15560.md",
     "templates/default.md",
@@ -184,7 +185,6 @@
     "_posts/2024-08-01-cs224n-lecture-1.md",
     "_posts/2024-08-02-test.md",
     "_posts/2024-07-29-boj-26306.md",
-    "_posts/2024-07-31-Edu-CF168-E.md",
     "assets/images/posts_img/my-titanic-notebook_20_1.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
     "assets/images/posts_img/my-titanic-notebook_4_0.png",
