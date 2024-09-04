@@ -318,12 +318,23 @@ body {
 }
 
 /*
+   Page date
+   ========================================================================== */
+.page__date {
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+}
+
+
+/*
    Page taxonomy
    ========================================================================== */
 
 .page__taxonomy {
-  // 글자 크기 추가
-  font-size: 13px;  // 원하는 글자 크기로 변경
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
   margin: 0px;
 
   .sep {
@@ -344,7 +355,8 @@ body {
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
 
-  font-size: 11px;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
 
   &:hover {
     text-decoration: none;
@@ -593,6 +605,7 @@ body {
         font-size: $type-size-6;
         text-align: center;
       }
+
     }
   }
 
