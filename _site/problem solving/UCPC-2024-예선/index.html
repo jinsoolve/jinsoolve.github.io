@@ -111,6 +111,7 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
@@ -797,6 +798,53 @@
     
 
     
+  </p>
+
+
+          
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/problem-solving" class="page__taxonomy-item" rel="tag">Problem Solving</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/union-find" class="page__taxonomy-item" rel="tag">Union-Find</a><span class="sep">, </span>
+    
+      <a href="/tags/%EA%B5%AC%ED%98%84" class="page__taxonomy-item" rel="tag">구현</a><span class="sep">, </span>
+    
+      <a href="/tags/%EA%B7%B8%EB%A6%AC%EB%94%94" class="page__taxonomy-item" rel="tag">그리디</a><span class="sep">, </span>
+    
+      <a href="/tags/%EB%A7%8E%EC%9D%80-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EA%B8%B0" class="page__taxonomy-item" rel="tag">많은-조건-분기</a><span class="sep">, </span>
+    
+      <a href="/tags/%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%ED%9B%84%EA%B8%B0" class="page__taxonomy-item" rel="tag">문제-풀이-후기</a><span class="sep">, </span>
+    
+      <a href="/tags/%EC%8A%A4%ED%83%9D" class="page__taxonomy-item" rel="tag">스택</a><span class="sep">, </span>
+    
+      <a href="/tags/%EC%99%84%EC%A0%84-%ED%83%90%EC%83%89" class="page__taxonomy-item" rel="tag">완전-탐색</a><span class="sep">, </span>
+    
+      <a href="/tags/%ED%95%B4%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0" class="page__taxonomy-item" rel="tag">해구성하기</a>
+    
+    </span>
   </p>
 
 
@@ -2227,52 +2275,6 @@
 
       <footer class="page__meta">
         
-        
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/tags/union-find" class="page__taxonomy-item" rel="tag">Union-Find</a><span class="sep">, </span>
-    
-      <a href="/tags/%EA%B5%AC%ED%98%84" class="page__taxonomy-item" rel="tag">구현</a><span class="sep">, </span>
-    
-      <a href="/tags/%EA%B7%B8%EB%A6%AC%EB%94%94" class="page__taxonomy-item" rel="tag">그리디</a><span class="sep">, </span>
-    
-      <a href="/tags/%EB%A7%8E%EC%9D%80-%EC%A1%B0%EA%B1%B4-%EB%B6%84%EA%B8%B0" class="page__taxonomy-item" rel="tag">많은-조건-분기</a><span class="sep">, </span>
-    
-      <a href="/tags/%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%ED%9B%84%EA%B8%B0" class="page__taxonomy-item" rel="tag">문제-풀이-후기</a><span class="sep">, </span>
-    
-      <a href="/tags/%EC%8A%A4%ED%83%9D" class="page__taxonomy-item" rel="tag">스택</a><span class="sep">, </span>
-    
-      <a href="/tags/%EC%99%84%EC%A0%84-%ED%83%90%EC%83%89" class="page__taxonomy-item" rel="tag">완전-탐색</a><span class="sep">, </span>
-    
-      <a href="/tags/%ED%95%B4%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0" class="page__taxonomy-item" rel="tag">해구성하기</a>
-    
-    </span>
-  </p>
-
-
-
-
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/categories/problem-solving" class="page__taxonomy-item" rel="tag">Problem Solving</a>
-    
-    </span>
-  </p>
-
 
         
   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-08-01">August 1, 2024</time></p>
@@ -2465,69 +2467,7 @@
 
     <div id="footer" class="page__footer">
       <footer>
-        <!-- start custom footer snippets -->
-
-<!-- Clipboard.js 라이브러리 추가 -->
-<!--<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // 모든 코드 블록을 찾아 복사 버튼 추가
-        document.querySelectorAll('div.highlighter-rouge').forEach(function(codeBlock) {
-            // 복사 버튼 생성
-            var button = document.createElement('button');
-            button.className = 'copy-button';
-            button.type = 'button';
-            button.innerText = 'Copy';
-
-            // 버튼 클릭 시 클립보드에 코드 복사
-            button.addEventListener('click', function() {
-                var code = codeBlock.querySelector('code').innerText; // 코드 블록 내의 코드만 가져오기
-                navigator.clipboard.writeText(code).then(function() {
-                    button.innerText = 'Copied!';
-                    setTimeout(function() {
-                        button.innerText = 'Copy';
-                    }, 2000); // 2초 후 버튼 텍스트를 다시 'Copy'로 변경
-                }, function(err) {
-                    console.error('Could not copy text: ', err);
-                });
-            });
-
-            // 코드 블록의 부모 요소에 버튼 추가
-            codeBlock.style.position = 'relative'; // 코드 블록에 position: relative 적용
-            codeBlock.style.marginBottom = '1em'; // 하단 마진 추가
-            codeBlock.style.overflowX = 'auto'; // 가로 스크롤바 추가
-
-            // 버튼 스타일링
-            button.style.position = 'absolute';
-            button.style.top = '10px'; // 상단 여백 조정
-            button.style.right = '10px'; // 우측 여백 조정
-            button.style.padding = '5px 10px';
-            button.style.border = 'none';
-            button.style.background = 'white'; // 기본 배경색 설정
-            button.style.color = '#007bff'; // 기본 텍스트 색상 설정
-            button.style.borderRadius = '5px';
-            button.style.cursor = 'pointer';
-            button.style.fontSize = '0.875em';
-            button.style.transition = 'background-color 0.3s, color 0.3s'; // 호버 시 애니메이션 효과 추가
-
-            // 버튼 호버 시 스타일 변경
-            button.addEventListener('mouseenter', function() {
-                button.style.color = 'white';
-                button.style.background = '#007bff';
-            });
-
-            button.addEventListener('mouseleave', function() {
-                button.style.color = '#007bff';
-                button.style.background = 'white';
-            });
-
-            codeBlock.appendChild(button); // 버튼을 코드 블록에 추가
-        });
-    });
-</script>-->
-<!-- Clipboard.js 라이브러리 끝 -->
-
-<!-- end custom footer snippets -->
-
+        
         <div class="page__footer-follow">
   <ul class="social-icons">
     

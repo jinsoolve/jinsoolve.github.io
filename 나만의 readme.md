@@ -45,7 +45,7 @@ last_modified_at: 2024-08-01
 2. /\_sass/minimal-mistakes/\_variables.scss 으로 이동해서  
    /* system typefaces \*/  
    $serif: Georgia, Times, serif !default;  
-   /* 2022.01.19 font change \*/  
+   /* 2022.01.19 font change */   
    $sans-serif: "ONE-Mobile-Regular",  
 	위 sans-serif의 값을 수정한다.
 
@@ -139,6 +139,13 @@ last_modified_at: 2024-08-01
 ---
 # 사이드바 하위 목록
 1. \_includes > nav_list를 수정한다.
+
+---
+# Tags, Categories 위치 header 쪽으로 변경
+1. page__taxonomy.html에서 해당 내용을 생성
+2. single.html과 gallery.html에서 page__taxonomy.html파일을 사용. 여기서 위치를 footer에서 꺼내서 header 안으로 넣어줌.
+3. _page.scss에서 .page__taxonomy 내용을 수정해서 css를 수정함.
+
 
 ---
 # 추가 사항
