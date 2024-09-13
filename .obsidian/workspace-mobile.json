@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-10-boj-17407.md",
+                "file": "_posts/2024-09-13-test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_posts/2024-09-10-boj-17407.md",
+            "file": "_posts/2024-09-13-test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_posts/2024-09-10-boj-17407.md",
+            "file": "_posts/2024-09-13-test.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_posts/2024-09-10-boj-17407.md"
+            "file": "_posts/2024-09-13-test.md"
           }
         }
       }
@@ -134,6 +134,7 @@
   },
   "active": "28b541ba4417bd86",
   "lastOpenFiles": [
-    "_posts/2024-09-10-boj-17407.md"
+    "_posts/2024-09-10-boj-17407.md",
+    "_posts/2024-09-13-test.md"
   ]
 }
