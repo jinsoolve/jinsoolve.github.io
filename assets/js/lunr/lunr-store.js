@@ -144,7 +144,7 @@ var store = [{
         "teaser": null
       },{
         "title": "필수",
-        "excerpt":"테스트 중입니다.   테스트 중입니다.   테스트 중이네요.   asdf  ","categories": ["Algorithm Theory"],
+        "excerpt":"테스트 중입니다.   테스트 중입니다.   테스트 중이네요.   asdf   1234  ","categories": ["Algorithm Theory"],
         "tags": ["test"],
         "url": "/algorithm%20theory/test/",
         "teaser": null
