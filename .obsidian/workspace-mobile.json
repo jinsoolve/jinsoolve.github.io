@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-13-test.md",
+                "file": "_posts/2024-09-20-boj-1462.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_posts/2024-09-13-test.md",
+            "file": "_posts/2024-09-20-boj-1462.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_posts/2024-09-13-test.md",
+            "file": "_posts/2024-09-20-boj-1462.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_posts/2024-09-13-test.md"
+            "file": "_posts/2024-09-20-boj-1462.md"
           }
         }
       }
@@ -123,6 +123,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -134,12 +135,13 @@
   },
   "active": "28b541ba4417bd86",
   "lastOpenFiles": [
+    "_posts/2024-09-10-boj-17407.md",
+    "_posts/2024-09-20-boj-1462.md",
+    "_posts/2024-09-13-test.md",
     "_site/tags/test/index.html",
     "_site/algorithm theory/test/index.html",
     "_site/algorithm theory/test",
     "_site/algorithm theory",
-    "_site/tags/test",
-    "_posts/2024-09-10-boj-17407.md",
-    "_posts/2024-09-13-test.md"
+    "_site/tags/test"
   ]
 }

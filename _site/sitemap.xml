@@ -96,8 +96,8 @@
 <lastmod>2024-09-14T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/algorithm%20theory/test/</loc>
-<lastmod>2024-09-14T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/problem%20solving/boj-1462/</loc>
+<lastmod>2024-09-24T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -234,9 +234,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags/%ED%8A%B8%EB%A6%AC/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags/test/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/algorithm-theory/</loc>
